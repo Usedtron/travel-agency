@@ -29,7 +29,7 @@ export default function Home() {
             {/* Div 1 */}
             <div className="p-4 bg-white rounded-md shadow-md">
               <div className="flex flex-col items-center">
-                <img
+                <Image
                   src="/itenerario.svg"
                   alt="Icon"
                   className="w-16 h-16 mb-2"
@@ -41,7 +41,7 @@ export default function Home() {
             {/* Div 2 */}
             <div className="p-4 bg-white rounded-md shadow-md">
               <div className="flex flex-col items-center">
-                <img
+                <Image
                   src="/ic_hotel.svg"
                   alt="Icon"
                   className="w-16 h-16 mb-2"
@@ -53,7 +53,7 @@ export default function Home() {
             {/* Div 3 */}
             <div className="p-4 bg-white rounded-md shadow-md">
               <div className="flex flex-col items-center">
-                <img src="/welcome.svg" alt="Icon" className="w-16 h-16 mb-2" />
+                <Image src="/welcome.svg" alt="Icon" className="w-16 h-16 mb-2" />
                 <p className="text-center">CONFIANÇA</p>
               </div>
             </div>
@@ -61,7 +61,7 @@ export default function Home() {
             {/* Div 4 */}
             <div className="p-4 bg-white rounded-md shadow-md">
               <div className="flex flex-col items-center">
-                <img
+                <Image
                   src="/ic_support.svg"
                   alt="Icon"
                   className="w-16 h-16 mb-2"

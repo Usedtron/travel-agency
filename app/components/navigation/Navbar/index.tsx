@@ -51,7 +51,7 @@ const Navbar = (props: Props) => {
             </li>
           </ul>
           <div className="flex items-center">
-            <img
+            <Image
               className="logoimage"
               src="/Logo.png"
               alt="Logo"
