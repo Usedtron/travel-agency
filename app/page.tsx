@@ -8,7 +8,6 @@ export default function Home() {
           <div className="">
             <p>Home</p>
             <div className="heroImage " />
-            
           </div>
         </section>
         {/* Seção Missão */}
@@ -32,29 +31,28 @@ export default function Home() {
                 <Image
                   src="/itenerario.svg"
                   alt="Icon"
-                  className="w-16 h-16 mb-2"
+                  height={64}
+                  width={64}
                 />
-                <p className="text-center">ITENERÁRIO À MEDIDA</p>
+                <p className="text-center mt-2">ITENERÁRIO À MEDIDA</p>
               </div>
             </div>
 
             {/* Div 2 */}
             <div className="p-4 bg-white rounded-md shadow-md">
               <div className="flex flex-col items-center">
-                <Image
-                  src="/ic_hotel.svg"
-                  alt="Icon"
-                  className="w-16 h-16 mb-2"
-                />
-                <p className="text-center">HOTEL, TRANSPORTE e ATIVIDADES</p>
+                <Image src="/ic_hotel.svg" alt="Icon" height={64} width={64} />
+                <p className="text-center mt-2">
+                  HOTEL, TRANSPORTE e ATIVIDADES
+                </p>
               </div>
             </div>
 
             {/* Div 3 */}
             <div className="p-4 bg-white rounded-md shadow-md">
-              <div className="flex flex-col items-center">
-                <Image src="/welcome.svg" alt="Icon" className="w-16 h-16 mb-2" />
-                <p className="text-center">CONFIANÇA</p>
+              <div className="flex flex-col items-center mt-2">
+                <Image src="/welcome.svg" alt="Icon" height={64} width={64} />
+                <p className="text-center mt-6">CONFIANÇA</p>
               </div>
             </div>
 
@@ -62,11 +60,13 @@ export default function Home() {
             <div className="p-4 bg-white rounded-md shadow-md">
               <div className="flex flex-col items-center">
                 <Image
+                  className=""
                   src="/ic_support.svg"
                   alt="Icon"
-                  className="w-16 h-16 mb-2"
+                  width={64}
+                  height={64}
                 />
-                <p className="text-center">SUPORTE 24/7</p>
+                <p className="text-center mt-2">SUPORTE 24/7</p>
               </div>
             </div>
           </div>
@@ -75,7 +75,7 @@ export default function Home() {
 
         {/* Seção Quem Somos */}
         <section className="bg-white" id="quemsomos">
-        <div className="hero2Image mb-10" />
+          <div className="hero2Image mb-10" />
 
           <div className="max-w-4xl mx-auto px-8">
             <h2 className="text-3xl font-bold mb-4 text-[#3CAFA0]">
@@ -110,8 +110,7 @@ export default function Home() {
 
         {/* Seção Testemunhos */}
         <section id="testemunhos" className="bg-gray-200 mt-4">
-        <div className="hero3Image mb-10" />
-
+          <div className="hero3Image mb-10" />
           <div className="max-w-4xl mx-auto px-8">
             <h2 className="text-3xl font-bold mb-4 text-[#3CAFA0]">
               Testemunhos
