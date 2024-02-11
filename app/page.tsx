@@ -5,12 +5,10 @@ export default function Home() {
   return (
     <>
       <div>
-        <section className="">
+        <section id="home">
           {/* Seção Home e Foto */}
-          <div className="">
-            <p>Home</p>
-            <div className="heroImage " />
-          </div>
+            <div className="heroImage mt-6" >
+            </div>
         </section>
         {/* Seção Missão */}
         <section className="bg-gray-100 p-8 mt-5" id="missao">
