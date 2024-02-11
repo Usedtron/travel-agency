@@ -9,8 +9,8 @@ const Form = () => {
   const [endDate, setEndDate] = useState<Date | null>(null);
 
   return (
-    <form>
-      <div className="container mx-auto ml-9 p-4 mt-20 flex-1 w-1/2 ">
+    <form className="flex justify-center items-center h-auto">
+      <div className="container mt-32 mb-20 mx-60 p-8 flex-1 w-1/3 h-1/3 bg-white shadow-xl border border-gray-300 rounded-md">
         <h1 className="text-4xl font-bold mb-4">Pedido de Orçamento</h1>
         <div className="mt-4 ">
           <label
