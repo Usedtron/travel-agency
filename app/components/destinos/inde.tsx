@@ -24,7 +24,7 @@ const Carousel = () => {
           className={`carousel-item ${currentItemIndex === 0 ? "active" : ""}`}
           style={{ transition: "opacity 1s ease-in-out" }}
         >
-          <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-full ">
+          <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto ">
             <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
               PUNTA CANA
             </h3>
@@ -46,7 +46,7 @@ const Carousel = () => {
         <div
           className={`carousel-item ${currentItemIndex === 1 ? "active" : ""}`}
         >
-          <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-full">
+          <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto">
             <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
               ZANZIBAR
             </h3>
@@ -69,7 +69,7 @@ const Carousel = () => {
         <div
           className={`carousel-item ${currentItemIndex === 2 ? "active" : ""}`}
         >
-          <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-full">
+          <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto">
             <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
               BRASIL
             </h3>
@@ -91,7 +91,7 @@ const Carousel = () => {
         <div
           className={`carousel-item ${currentItemIndex === 3 ? "active" : ""}`}
         >
-          <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-full">
+          <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto">
             <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
               DISNEYLAND PARIS
             </h3>
@@ -112,7 +112,7 @@ const Carousel = () => {
         <div
           className={`carousel-item ${currentItemIndex === 4 ? "active" : ""}`}
         >
-          <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-full">
+          <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto">
             <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
               CUBA
             </h3>
@@ -134,7 +134,7 @@ const Carousel = () => {
         <div
           className={`carousel-item ${currentItemIndex === 5 ? "active" : ""}`}
         >
-          <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-full">
+          <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto">
             <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
               CAPADOCIA
             </h3>
@@ -157,7 +157,7 @@ const Carousel = () => {
         <div
           className={`carousel-item ${currentItemIndex === 6 ? "active" : ""}`}
         >
-          <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-full">
+          <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto">
             <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
               ESTADOS UNIDOS DA AMERICA
             </h3>
