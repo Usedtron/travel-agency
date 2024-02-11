@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Carousel from './components/Carousel';
+import Carousel from "./components/Carousel";
 
 export default function Home() {
   return (
@@ -75,6 +75,13 @@ export default function Home() {
           {/*  FIM Seção Missão */}
         </section>
 
+        <section id="destinos" className="bg-white mt-4 mb-4">
+          <div className="max-w-4xl mx-auto px-8">
+            <h2 className="text-3xl font-bold mb-4 text-[#3CAFA0]">Destinos</h2>
+            <Destinos />
+          </div>
+        </section>
+
         {/* Seção Quem Somos */}
         <section className="bg-white" id="quemsomos">
           <div className="hero2Image mb-10" />
@@ -119,11 +126,11 @@ export default function Home() {
             </h2>
             {/* Conteúdo da seção Testemunhos */}
             <Carousel />
-          </div>   
-
+          </div>
         </section>
       </div>
     </>
   );
 }
 import React from "react";
+import Destinos from "./components/destinos/inde";
