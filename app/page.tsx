@@ -74,13 +74,16 @@ export default function Home() {
           </div>
           {/*  FIM Seção Missão */}
         </section>
+        {/* Seção Destinos */}
 
-        <section id="destinos" className="bg-white mt-4 mb-8">
-          <div className="max-w-4xl mx-auto px-8">
+        <section className="bg-white p-8 mt-5" id="destinos">
+          <div className="max-w-4xl mx-auto">
+            <h3 className="text-[#3CAFA0]">Estes e muitos mais...</h3>
             <h2 className="text-3xl font-bold mb-4 text-[#3CAFA0]">Destinos</h2>
             <Destinos />
           </div>
         </section>
+        {/* fim Seção  Destinos */}
 
         {/* Seção Quem Somos */}
         <section className="bg-white" id="quemsomos">
