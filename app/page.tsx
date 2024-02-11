@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Carousel from './components/Carousel';
+
 export default function Home() {
   return (
     <>
@@ -116,7 +118,9 @@ export default function Home() {
               Testemunhos
             </h2>
             {/* Conteúdo da seção Testemunhos */}
-          </div>
+            <Carousel />
+          </div>   
+
         </section>
       </div>
     </>
