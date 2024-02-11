@@ -9,8 +9,8 @@ const Form = () => {
   const [endDate, setEndDate] = useState<Date | null>(null);
 
   return (
-    <form className="flex justify-center items-center h-auto">
-      <div className="container mt-32 mb-20 mx-60 p-8 flex-1 w-1/3 h-1/3 bg-white shadow-xl border border-gray-300 rounded-md">
+    <form className="flex justify-center items-center h-auto formulario">
+      <div className="container mt-32 mb-20 mx-60 p-8 flex-1 w-1/3 h-1/3 bg-white  bg-opacity-40 shadow-xl border border-gray-300 rounded-md">
         <h1 className="text-4xl font-bold mb-4">Pedido de Orçamento</h1>
         <div className="mt-4 ">
           <label
@@ -104,7 +104,7 @@ const Form = () => {
             id="numAdultos"
             name="numAdultos"
             required
-            className="mt-1 p-2 w-full border rounded-md"
+            className="mt-1 p-2 w-36 border rounded-md"
           >
             <option value="1">1</option>
             <option value="2">2</option>
@@ -126,7 +126,7 @@ const Form = () => {
             id="numCriancas"
             name="numCriancas"
             required
-            className="mt-1 p-2 w-full border rounded-md"
+            className="mt-1 p-2 w-36 border rounded-md "
           >
             <option value="1">1</option>
             <option value="2">2</option>
@@ -147,7 +147,7 @@ const Form = () => {
             id="orcamento"
             name="orcamento"
             required
-            className="mt-1 p-2 w-full border rounded-md"
+            className="mt-1 p-2 w-36 border rounded-md"
           />
         </div>
 
