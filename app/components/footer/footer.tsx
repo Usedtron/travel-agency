@@ -55,6 +55,19 @@ const Footer = () => {
             />
           </p>
         </Link>
+       <Link
+       target="_blank"
+       href="https://wa.me/351966420212?text=Ola%20Para Aqueles que Amam Viajar,%20tenho%20uma%20consulta%20..."
+       >
+        <p>
+        <Image
+        src="/whatsapp.svg"
+        alt="Turismo de Portugal"
+        width={30}
+        height={30}
+        />
+        </p>
+        </Link>
       </div>
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
