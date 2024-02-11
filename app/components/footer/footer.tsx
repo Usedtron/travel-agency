@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -7,8 +8,11 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <p className="text-xs">
-            &copy; {new Date().getFullYear()} Para Aqueles que Amam Viajar | RNAVT n.º 11.332
-            <br />Rua do Movimento Republicano, 16, 1.º Esquerdo Parque Luso 2855-716 Corroios
+            &copy; {new Date().getFullYear()} Para Aqueles que Amam Viajar |
+            RNAVT n.º 11.332
+            <br />
+            Rua do Movimento Republicano, 16, 1.º Esquerdo Parque Luso 2855-716
+            Corroios
           </p>
           <div className="flex space-x-4">
             <Link href="/legal-notice">
@@ -25,6 +29,32 @@ const Footer = () => {
             </Link>
             <Link href="/contacts">
               <p className="text-xs">Contatos</p>
+            </Link>
+            <Link
+              href="https://www.livroreclamacoes.pt/Inicio/"
+              target="_blank"
+            >
+              <p>
+                <Image
+                  src="/reclamacao.png"
+                  alt="Livro de reclamações"
+                  width={80}
+                  height={80}
+                />
+              </p>
+            </Link>
+            <Link
+              href="http://www.turismodeportugal.pt/pt/Paginas/homepage.aspx"
+              target="_blank"
+            >
+              <p>
+                <Image
+                  src="/turismo.png"
+                  alt="Turismo de Portugal"
+                  width={80}
+                  height={80}
+                />
+              </p>
             </Link>
           </div>
         </div>
