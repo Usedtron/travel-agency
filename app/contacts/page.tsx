@@ -15,6 +15,8 @@ const Contacts = () => {
         <p className="text-lg mb-6">
           Marcia Santos +351966420212 <br /> Marta Silva +351966296251 <br />{" "}
           <br /> geral@paraaquelesqueamamviajar.com
+          <br />Rua do Movimento Republicano, 16, 1.º Esquerdo Parque Luso 2855-716
+            Corroios
         </p>
         <form onSubmit={handleSubmit} className="max-w-md">
           <label

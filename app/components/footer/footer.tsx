@@ -5,6 +5,57 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white p-4 ">
+      <div className="container mx-auto justify-center space-x-3  flex flex-row">
+        <Link href="https://www.livroreclamacoes.pt/Inicio/" target="_blank">
+          <p>
+            <Image
+              src="/reclamacao.png"
+              alt="Livro de reclamações"
+              width={80}
+              height={80}
+            />
+          </p>
+        </Link>
+        <Link
+          href="http://www.turismodeportugal.pt/pt/Paginas/homepage.aspx"
+          target="_blank"
+        >
+          <p>
+            <Image
+              src="/turismo.png"
+              alt="Turismo de Portugal"
+              width={80}
+              height={80}
+            />
+          </p>
+        </Link>
+        <Link
+          href="https://www.instagram.com/paraaquelesqueamamviajar/"
+          target="_blank"
+        >
+          <p>
+            <Image
+              src="/instagram.svg"
+              alt="Turismo de Portugal"
+              width={30}
+              height={30}
+            />
+          </p>
+        </Link>
+        <Link
+          href="https://www.facebook.com/profile.php?id=100072803705563"
+          target="_blank"
+        >
+          <p>
+            <Image
+              src="/facebook.svg"
+              alt="Turismo de Portugal"
+              width={30}
+              height={30}
+            />
+          </p>
+        </Link>
+      </div>
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <p className="text-xs">
@@ -29,32 +80,6 @@ const Footer = () => {
             </Link>
             <Link href="/contacts">
               <p className="text-xs">Contatos</p>
-            </Link>
-            <Link
-              href="https://www.livroreclamacoes.pt/Inicio/"
-              target="_blank"
-            >
-              <p>
-                <Image
-                  src="/reclamacao.png"
-                  alt="Livro de reclamações"
-                  width={80}
-                  height={80}
-                />
-              </p>
-            </Link>
-            <Link
-              href="http://www.turismodeportugal.pt/pt/Paginas/homepage.aspx"
-              target="_blank"
-            >
-              <p>
-                <Image
-                  src="/turismo.png"
-                  alt="Turismo de Portugal"
-                  width={80}
-                  height={80}
-                />
-              </p>
             </Link>
           </div>
         </div>
