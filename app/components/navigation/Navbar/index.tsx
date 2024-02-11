@@ -9,7 +9,7 @@ type Props = {
 
 const Navbar = (props: Props) => {
   return (
-    <div className="navbar bg-white text-orange-700 py-2 fixed w-full top-0 z-10 shadow-md">
+    <div className="navbar bg-white text-orange-700 py-2 fixed w-full top-0 z-10 shadow-md h-6">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -73,26 +73,16 @@ const Navbar = (props: Props) => {
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-gray-600">
           <li>
-            <a href="/#quemsomos" className="hover:text-orange-500">
-              Quem Somos
+            <a href="/#destinos" className="hover:text-orange-500">
+              Destinos
             </a>
           </li>
           <li>
-            <a href="/#testemunhos" className="hover:text-orange-500">Testemunhos</a>
+            <a href="/#quemsomos" className="hover:text-orange-500">Quem Somos</a>
           </li>
 
           <li>
-            <details>
-              <summary>Parent</summary>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </details>
+          <a href="/#testemunhos" className="hover:text-orange-500">Testemunhos</a>
           </li>
           <li>
             <a href="/contacts" className="hover:text-orange-500">
