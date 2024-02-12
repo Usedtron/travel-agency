@@ -9,7 +9,7 @@ type Props = {
 
 const Navbar = (props: Props) => {
   return (
-    <div className="navbar bg-white text-orange-500 py-2 fixed w-full top-0 z-10 shadow-md h-6">
+    <div className="navbar bg-white text-orange-400 py-2 fixed w-full top-0 z-10 shadow-md h-6">
       <div className="navbar-start">
         <div className="flex items-center">
           <Image

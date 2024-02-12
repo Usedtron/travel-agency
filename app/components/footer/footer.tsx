@@ -4,71 +4,74 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-<footer className="bg-gray-200 text-gray-800 p-4 md:p-10">
-  <div className="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between space-y-4 md:space-y-0 md:space-x-3">
-    <div className="flex space-x-3">
+    <footer className="bg-gray-200 text-gray-800 p-6">
+    <div className="container mx-auto justify-center space-x-3 flex flex-row md:m-2">
       <Link href="https://www.livroreclamacoes.pt/Inicio/" target="_blank">
-        <Image
-          src="/reclamacao.png"
-          alt="Livro de reclamações"
-          width={80}
-          height={80}
-        />
+        <p>
+          <Image
+            src="/reclamacao.png"
+            alt="Livro de reclamações"
+            width={80}
+            height={80}
+          />
+        </p>
       </Link>
       <Link
         href="http://www.turismodeportugal.pt/pt/Paginas/homepage.aspx"
         target="_blank"
       >
-        <Image
-          src="/turismo.png"
-          alt="Turismo de Portugal"
-          width={80}
-          height={80}
-        />
+        <p>
+          <Image
+            src="/turismo.png"
+            alt="Turismo de Portugal"
+            width={80}
+            height={80}
+          />
+        </p>
       </Link>
       <Link
         href="https://www.instagram.com/paraaquelesqueamamviajar/"
         target="_blank"
       >
-        <Image
-          src="/instagram.svg"
-          alt="Turismo de Portugal"
-          width={30}
-          height={30}
-        />
+        <p>
+          <Image
+            src="/instagram.svg"
+            alt="Turismo de Portugal"
+            width={30}
+            height={30}
+          />
+        </p>
       </Link>
       <Link
         href="https://www.facebook.com/profile.php?id=100072803705563"
         target="_blank"
       >
-        <Image
-          src="/facebook.svg"
-          alt="Turismo de Portugal"
-          width={30}
-          height={30}
-        />
+        <p>
+          <Image
+            src="/facebook.svg"
+            alt="Turismo de Portugal"
+            width={30}
+            height={30}
+          />
+        </p>
       </Link>
-      <Link
-        target="_blank"
-        href="https://wa.me/351966420212?text=Ola%20Para Aqueles que Amam Viajar,%20tenho%20uma%20consulta%20..."
-      >
-        <Image
-          src="/whatsapp.svg"
-          alt="Turismo de Portugal"
-          width={30}
-          height={30}
-        />
+     <Link
+     target="_blank"
+     href="https://wa.me/351966420212?text=Ola%20Para Aqueles que Amam Viajar,%20tenho%20uma%20consulta%20..."
+     >
+      <p>
+      <Image
+      src="/whatsapp.svg"
+      alt="Turismo de Portugal"
+      width={30}
+      height={30}
+      />
+      </p>
       </Link>
     </div>
-    <div className="text-xs flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
-      <p>
-        &copy; {new Date().getFullYear()} Para Aqueles que Amam Viajar |
-        RNAVT n.º 11.332
-        <br />
-        Rua do Movimento Republicano, 16, 1.º Esquerdo Parque Luso 2855-716
-        Corroios
-      </p>
-      <div className="flex space-x-4">
+    <div className="container mx-auto">
+    <div className="text-xs flex flex-col md:flex-row md:justify-between space-y-4 md:space-y-0 md:space-x-4">
+       <div className="flex space-x-4">
         <Link href="/legal-notice">
           <p>Aviso Legal</p>
         </Link>
@@ -85,6 +88,14 @@ const Footer = () => {
           <p>Contatos</p>
         </Link>
       </div>
+      <p>
+        &copy; {new Date().getFullYear()} Para Aqueles que Amam Viajar |
+        RNAVT n.º 11.332
+        <br />
+        Rua do Movimento Republicano, 16, 1.º Esquerdo Parque Luso 2855-716
+        Corroios
+      </p>
+     
     </div>
   </div>
 </footer>
