@@ -128,6 +128,7 @@ const Form = () => {
             required
             className="mt-1 p-2 w-36 border rounded-md "
           >
+            <option value="0">0</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -148,6 +149,19 @@ const Form = () => {
             name="orcamento"
             required
             className="mt-1 p-2 w-36 border rounded-md"
+          />
+          <label
+            htmlFor="orcamento"
+            className="block text-sm font-medium text-gray-600"
+          >
+            Informações Relevantes:{" "}
+          </label>
+          <textarea
+            id="message"
+            name="message"
+            rows={2}
+            required
+            className="mt-1 p-2 w-full border rounded-md"
           />
         </div>
 
