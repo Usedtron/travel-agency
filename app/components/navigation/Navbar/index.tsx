@@ -19,13 +19,12 @@ const Navbar = (props: Props) => {
             width={150}
             height={150}
           />
-          <a href="/#home" className="btn btn-ghost text-xl font-bold">
+          <a href="/#home" className="btn btn-ghost text-xs md:text-xl font-bold">
             PARA AQUELES QUE AMAM VIAJAR
           </a>
         </div>
       </div>
-
-      <div className="navbar-center hidden lg:flex">
+    <div className="navbar-center hidden lg:flex">
         <a href="/form" className="btn bg-orange-300 text-white btn-sm">
           Enviar Pedido
         </a>
