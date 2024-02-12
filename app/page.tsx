@@ -4,11 +4,10 @@ import Carousel from "./components/Carousel";
 export default function Home() {
   return (
     <>
-      <div>
+      <div className="bg-white">
         <section id="home">
           {/* Seção Home e Foto */}
-            <div className="heroImage mt-6" >
-            </div>
+          <div className="heroImage mt-6"></div>
         </section>
         {/* Seção Missão */}
         <section className="bg-gray-100 p-8 mt-5" id="missao">
