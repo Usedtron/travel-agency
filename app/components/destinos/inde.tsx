@@ -18,7 +18,7 @@ const Carousel = () => {
     <div>
       <div className=" md:hidden flex justify-center items-center h-90 w-full">
         <div className="carousel">
-          <div id="slide1" className="carousel-item relative w-full">
+          <div id="destiny1" className="carousel-item relative w-full">
             <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto">
               <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
                 ZANZIBAR
@@ -38,15 +38,15 @@ const Carousel = () => {
               </p>
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide7" className="btn btn-circle opacity-50">
+              <a href="#destiny7" className="btn btn-circle opacity-50">
                 ❮
               </a>
-              <a href="#slide2" className="btn btn-circle opacity-50">
+              <a href="#destiny2" className="btn btn-circle opacity-50">
                 ❯
               </a>
             </div>
           </div>
-          <div id="slide2" className="carousel-item relative w-full">
+          <div id="destiny2" className="carousel-item relative w-full">
             <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto ">
               <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
                 PUNTA CANA
@@ -54,7 +54,7 @@ const Carousel = () => {
               <Image
                 className="p-4 puntacana"
                 src="/punta-cana.jpg"
-                alt="Burger"
+                alt="punta-cana"
                 height={100}
                 width={300}
               />
@@ -66,15 +66,15 @@ const Carousel = () => {
               </p>
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide1" className="btn btn-circle opacity-50">
+              <a href="#destiny1" className="btn btn-circle opacity-50">
                 ❮
               </a>
-              <a href="#slide3" className="btn btn-circle opacity-50">
+              <a href="#destiny3" className="btn btn-circle opacity-50">
                 ❯
               </a>
             </div>
           </div>
-          <div id="slide3" className="carousel-item relative w-full">
+          <div id="destiny3" className="carousel-item relative w-full">
             <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto">
               <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
                 BRASIL
@@ -94,15 +94,15 @@ const Carousel = () => {
               </p>
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide2" className="btn btn-circle opacity-50">
+              <a href="#destiny2" className="btn btn-circle opacity-50">
                 ❮
               </a>
-              <a href="#slide4" className="btn btn-circle opacity-50">
+              <a href="#destiny4" className="btn btn-circle opacity-50">
                 ❯
               </a>
             </div>
           </div>
-          <div id="slide4" className="carousel-item relative w-full">
+          <div id="destiny4" className="carousel-item relative w-full">
             <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto">
               <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
                 DISNEYLAND PARIS
@@ -110,7 +110,7 @@ const Carousel = () => {
               <Image
                 className="p-4 capadocia"
                 src="/paris.jpg"
-                alt="Burger"
+                alt="paris"
                 height={100}
                 width={300}
               />
@@ -121,15 +121,15 @@ const Carousel = () => {
               </p>
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide3" className="btn btn-circle opacity-50">
+              <a href="#destiny3" className="btn btn-circle opacity-50">
                 ❮
               </a>
-              <a href="#slide5" className="btn btn-circle opacity-50">
+              <a href="#destiny5" className="btn btn-circle opacity-50">
                 ❯
               </a>
             </div>
           </div>
-          <div id="slide5" className="carousel-item relative w-full">
+          <div id="destiny5" className="carousel-item relative w-full">
             <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto">
               <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
                 CUBA
@@ -137,7 +137,7 @@ const Carousel = () => {
               <Image
                 className="p-4 cuba"
                 src="/cuba2.jpg"
-                alt="Burger"
+                alt="cuba"
                 height={100}
                 width={300}
               />
@@ -149,15 +149,15 @@ const Carousel = () => {
               </p>
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide4" className="btn btn-circle opacity-50">
+              <a href="#destiny4" className="btn btn-circle opacity-50">
                 ❮
               </a>
-              <a href="#slide6" className="btn btn-circle opacity-50">
+              <a href="#destiny6" className="btn btn-circle opacity-50">
                 ❯
               </a>
             </div>
           </div>
-          <div id="slide6" className="carousel-item relative w-full">
+          <div id="destiny6" className="carousel-item relative w-full">
             <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto">
               <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
                 CAPADOCIA
@@ -178,15 +178,15 @@ const Carousel = () => {
               </p>
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide5" className="btn btn-circle opacity-50">
+              <a href="#destiny5" className="btn btn-circle opacity-50">
                 ❮
               </a>
-              <a href="#slide7" className="btn btn-circle opacity-50">
+              <a href="#destiny7" className="btn btn-circle opacity-50">
                 ❯
               </a>
             </div>
           </div>
-          <div id="slide7" className="carousel-item relative w-full">
+          <div id="destiny7" className="carousel-item relative w-full">
             <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto">
               <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
                 ESTADOS UNIDOS DA AMERICA
@@ -194,7 +194,7 @@ const Carousel = () => {
               <Image
                 className="p-4 eua"
                 src="/eua.jpg"
-                alt="Burger"
+                alt="eua"
                 height={100}
                 width={300}
               />
@@ -206,10 +206,10 @@ const Carousel = () => {
               </p>
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide6" className="btn btn-circle opacity-50">
+              <a href="#destiny6" className="btn btn-circle opacity-50">
                 ❮
               </a>
-              <a href="#slide1" className="btn btn-circle opacity-50">
+              <a href="#destiny1" className="btn btn-circle opacity-50">
                 ❯
               </a>
             </div>
