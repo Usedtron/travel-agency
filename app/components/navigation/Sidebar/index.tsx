@@ -41,7 +41,7 @@ const Sidebar = (props: SidebarProps) => {
           <div className="bg-white bg-opacity-100 w-64 flex justify-center mb-10">
             <Image
               className="logoside"
-              src="/logo.png"
+              src="/logo2.png"
               alt="Logo"
               width={120}
               height={120}
@@ -74,7 +74,7 @@ const Sidebar = (props: SidebarProps) => {
             </a>
           </li>
           <li className="border-t-2 border-gray-100 w-64 flex justify-center ">
-            <div className="my-10">
+            <div className="mt-20">
               <h2 className="">Marcia Santos</h2>
               <div className="flex flex-row gap-2">
                 <Link
@@ -119,7 +119,7 @@ const Sidebar = (props: SidebarProps) => {
               </div>
             </div>
           </li>
-          <li className="my-5 ">
+          <li className="">
             <div className="">
               <h2>Marta Silva</h2>
               <div className="flex flex-row gap-2">
