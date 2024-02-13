@@ -90,7 +90,7 @@ export default function Home() {
             <h2 className="text-3xl font-bold mb-4 text-[#3CAFA0]">
               Quem Somos
             </h2>
-            <div className="md:hidden polaroid border border-gray-300 rounded-md p-4 mx-6 mb-2 w-80 h-auto">
+            <div className="md:hidden polaroid border border-gray-300 rounded-md p-4  mb-2 w-80 h-auto">
               <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
                 MÁRCIA E MARTA
               </h3>
