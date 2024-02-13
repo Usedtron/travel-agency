@@ -50,8 +50,8 @@
 
 @media (max-width: 768px) {
   .logoimage {
-    height: 40px; /* Adjust the height for smaller screens */
-    width: 80px;
+    height: 30px; /* Adjust the height for smaller screens */
+    width: 60px;
   }
 }
 
