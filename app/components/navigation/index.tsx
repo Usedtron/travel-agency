@@ -12,8 +12,6 @@ const Home = () => {
 
   return (
     <div>
-      <Navbar toggleSidebar={toggleSidebar} />
-      <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
     </div>
   );
 };
