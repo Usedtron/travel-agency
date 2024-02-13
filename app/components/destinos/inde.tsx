@@ -26,7 +26,7 @@ const Carousel = () => {
               <Image
                 className="p-4 zanzibar"
                 src="/zanzibar.jpg"
-                alt="Burger"
+                alt="zanzibar"
                 height={100}
                 width={300}
               />
