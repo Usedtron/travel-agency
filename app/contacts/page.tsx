@@ -10,9 +10,9 @@ const Contacts = () => {
 
   return (
     <div className="flex imageContact">
-      <div className="container mt-32 mb-20 mx-60 p-8 flex-1 items-center justify-center w-1/3 h-1/3 bg-white  bg-opacity-80 shadow-xl border border-gray-300 rounded-md">
-        <h1 className="text-4xl font-bold mb-4">Contactos</h1>
-        <p className="text-lg mb-6 font-semibold">
+      <div className="container md:mt-32 md:mb-20 md:mx-60 p-8 md:flex-1 md:items-center justify-center md:w-1/3 md:h-1/3 bg-white   bg-opacity-60 md:bg-opacity-80 shadow-xl border border-gray-300 rounded-md">
+        <h1 className="md:text-4xl font-bold mb-4">Contactos</h1>
+        <p className="md:text-lg mb-6 font-semibold">
           Marcia Santos +351966420212 <br /> Marta Silva +351966296251 <br />
 
           <br />Email: geral@paraaquelesqueamamviajar.com
