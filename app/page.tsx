@@ -110,7 +110,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            <p className="">
+            <p className="text-justify">
               Criamos o Para Aqueles que Amam Viajar com a missão de acima de
               tudo oferecer uma experiência exclusiva, 100% personalizada ao seu
               gosto e principalmente ao seu bolso!
