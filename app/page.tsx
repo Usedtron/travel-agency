@@ -90,8 +90,21 @@ export default function Home() {
             <h2 className="text-3xl font-bold mb-4 text-[#3CAFA0]">
               Quem Somos
             </h2>
+            <div className="md:hidden polaroid border border-gray-300 rounded-md p-4 mx-6 mb-2 w-80 h-auto">
+              <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
+                MÁRCIA E MARTA
+              </h3>
+
+              <Image
+                className="p-4 owner"
+                src="/owner.png"
+                alt="owner"
+                height={100}
+                width={300}
+              />
+            </div>
             {/* Conteúdo da seção Quem Somos */}
-            <div className="flex flex-row">
+            <div className="hidden md:flex md:flex-row">
               <p className="text-justify w-3/5 md:flex md:justify-center md:items-center">
                 Olá e bem vindos ao Para aqueles que amam Viajar!
                 <br />
