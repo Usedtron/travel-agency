@@ -12,7 +12,7 @@ const Sidebar = (props: SidebarProps) => {
     <div className="flex items-center">
       {/* Sidebar */}
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-white bg-opacity-85 backdrop-blur-sm shadow-lg z-50 transform transition-transform duration-300 ${
+        className={`fixed top-0 left-0 h-full w-64 bg-white bg-opacity-85 backdrop-blur-sm shadow-lg z-50 transform transition-transform duration-300 overflow-visible ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
