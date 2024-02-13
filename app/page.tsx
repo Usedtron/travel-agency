@@ -91,21 +91,34 @@ export default function Home() {
               Quem Somos
             </h2>
             {/* Conteúdo da seção Quem Somos */}
-            <p>
-              Olá e bem vindos ao Para aqueles que amam Viajar!
-              <br />
-              <br /> O Para aqueles que Amam Viajar conta com duas amigas,
-              Márcia Santos e Marta Silva que além de serem duas apaixonadas em
-              viajar, gostam de juntar a paixão à concretização de sonhos em
-              realidade.
-              <br />
-              <br /> Criamos o Para Aqueles que Amam Viajar com a missão de
-              acima de tudo oferecer uma experiência exclusiva, 100%
-              personalizada ao seu gosto e principalmente ao seu bolso!
-              <br />
-              <br /> Propomo-nos a ajudar com toda a nossa paixão que temos por
-              esta área e queremos poder tornar todos os seus sonhos, em
-              momentos únicos inesquecíveis.
+            <div className="flex flex-row">
+              <p className="text-justify w-3/5 md:flex md:justify-center md:items-center">
+                Olá e bem vindos ao Para aqueles que amam Viajar!
+                <br />
+                <br /> O Para aqueles que Amam Viajar conta com duas amigas,
+                Márcia Santos e Marta Silva que além de serem duas apaixonadas
+                em viajar, gostam de juntar a paixão à concretização de sonhos
+                em realidade.
+              </p>
+              <div className="w-2/5 flex justify-center items-center">
+                <Image
+                  className="owner"
+                  src="/owner.png"
+                  alt="Icon"
+                  width={180}
+                  height={180}
+                />
+              </div>
+            </div>
+            <p className="">
+              Criamos o Para Aqueles que Amam Viajar com a missão de acima de
+              tudo oferecer uma experiência exclusiva, 100% personalizada ao seu
+              gosto e principalmente ao seu bolso!
+            </p>
+            <p className="text-justify">
+              Propomo-nos a ajudar com toda a nossa paixão que temos por esta
+              área e queremos poder tornar todos os seus sonhos, em momentos
+              únicos inesquecíveis.
               <br />
               <br /> Temos todas as ferramentas que nos permitem aceder a todas
               as principais Companhias Aéreas low-cost e regulares, cadeias

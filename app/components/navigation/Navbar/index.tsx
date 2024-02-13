@@ -19,7 +19,7 @@ const Navbar = (props: Props) => {
             width={150}
             height={150}
           />
-          <a href="/#home" className="btn btn-ghost text-xs md:text-xl font-bold">
+          <a href="/#home" className="btn btn-ghost text-sm md:text-xl font-bold">
             PARA AQUELES QUE AMAM VIAJAR
           </a>
         </div>

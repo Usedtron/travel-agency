@@ -55,6 +55,13 @@
   }
 }
 
+@media (max-width: 768px) {
+  .owner {
+    height: 200px; /* Adjust the height for smaller screens */
+    width: 200px;
+  }
+}
+
 
 .puntacana {
   width: 100%;
