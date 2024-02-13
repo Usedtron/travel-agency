@@ -38,8 +38,43 @@ const Sidebar = (props: SidebarProps) => {
         </button>
         {/* Sidebar content */}
         <ul className="mt-16 flex flex-col items-center gap-4">
-          <li className="">
-            <div>
+          <div className="bg-white bg-opacity-100 w-64 flex justify-center">
+            <Image
+              className="logoside"
+              src="/logo2.png"
+              alt="Logo"
+              width={120}
+              height={120}
+            />
+          </div>
+          <a
+            href="/form"
+            className="btn bg-orange-300 text-white btn-sm flex rounded-none w-64"
+          >
+            Enviar Pedido
+          </a>
+          <li>
+            <a href="/#destinos" className="">
+              Destinos
+            </a>
+          </li>
+          <li>
+            <a href="/#quemsomos" className="">
+              Quem Somos
+            </a>
+          </li>
+          <li>
+            <a href="/#testemunhos" className="">
+              Testemunhos
+            </a>
+          </li>
+          <li>
+            <a href="/contacts" className="">
+              Contactos
+            </a>
+          </li>
+          <li className="border-t-2 border-gray-100 w-64 flex justify-center pt-6 ">
+            <div className="">
               <h2 className="">Marcia Santos</h2>
               <div className="flex flex-row gap-2">
                 <Link
@@ -85,12 +120,12 @@ const Sidebar = (props: SidebarProps) => {
             </div>
           </li>
           <li>
-            <div>
+            <div className="">
               <h2>Marta Silva</h2>
               <div className="flex flex-row gap-2">
                 <Link
                   target="_blank"
-                  href="https://wa.me/351966420212?text=Ola%20Para Aqueles que Amam Viajar,%20tenho%20uma%20consulta%20..."
+                  href="https://wa.me/351966296251?text=Ola%20Para Aqueles que Amam Viajar,%20tenho%20uma%20consulta%20..."
                 >
                   <p>
                     <Image
@@ -115,7 +150,7 @@ const Sidebar = (props: SidebarProps) => {
                   </p>
                 </Link>
                 <Link
-                  href="https://www.instagram.com/paraaquelesqueamamviajar/"
+                  href="https://www.instagram.com/para_aqueles_que_amam_viajar?igsh=MXI1NnU0NW1haW02eA=="
                   target="_blank"
                 >
                   <p>
@@ -130,33 +165,7 @@ const Sidebar = (props: SidebarProps) => {
               </div>
             </div>
           </li>
-          <li>
-            <a href="/#destinos" className="hover:">
-              Destinos
-            </a>
-          </li>
-          <li>
-            <a href="/#quemsomos" className="hover:text-orange-500">
-              Quem Somos
-            </a>
-          </li>
-          <li>
-            <a href="/#testemunhos" className="hover:text-orange-500">
-              Testemunhos
-            </a>
-          </li>
-          <li>
-            <a href="/contacts" className="hover:text-orange-500">
-              Contactos
-            </a>
-          </li>
         </ul>
-        <a
-          href="/form"
-          className="btn bg-orange-300 text-white btn-sm flex rounded-none"
-        >
-          Enviar Pedido
-        </a>
       </div>
       {/* Mobile Sidebar Toggle Button */}
       <div className="lg:hidden flex justify-end">
