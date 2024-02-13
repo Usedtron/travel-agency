@@ -38,7 +38,7 @@ const Sidebar = (props: SidebarProps) => {
         </button>
         {/* Sidebar content */}
         <ul className="mt-16 flex flex-col items-center gap-4">
-          <div className="bg-white bg-opacity-100 w-64 flex justify-center mb-10">
+          <div className=" w-64 flex justify-center mb-10">
             <Image
               className="logoside"
               src="/logo2.png"
