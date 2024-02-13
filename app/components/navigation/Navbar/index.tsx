@@ -25,7 +25,7 @@ const Navbar = (props: Props) => {
           >
             PARA AQUELES QUE AMAM VIAJAR
           </a>
-          <div className="lg:hidden navbar-end">
+          <div className="lg:hidden navbar-center">
             <button className="btn btn-square btn-ghost">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
