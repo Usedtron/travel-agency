@@ -38,10 +38,10 @@ const Sidebar = (props: SidebarProps) => {
         </button>
         {/* Sidebar content */}
         <ul className="mt-16 flex flex-col items-center gap-4">
-          <div className="bg-white bg-opacity-100 w-64 flex justify-center">
+          <div className="bg-white bg-opacity-100 w-64 flex justify-center mb-10">
             <Image
               className="logoside"
-              src="/logo2.png"
+              src="/logo.png"
               alt="Logo"
               width={120}
               height={120}
@@ -68,13 +68,13 @@ const Sidebar = (props: SidebarProps) => {
               Testemunhos
             </a>
           </li>
-          <li>
+          <li className="mb-10">
             <a href="/contacts" className="">
               Contactos
             </a>
           </li>
-          <li className="border-t-2 border-gray-100 w-64 flex justify-center pt-6 ">
-            <div className="">
+          <li className="border-t-2 border-gray-100 w-64 flex justify-center ">
+            <div className="my-10">
               <h2 className="">Marcia Santos</h2>
               <div className="flex flex-row gap-2">
                 <Link
@@ -119,7 +119,7 @@ const Sidebar = (props: SidebarProps) => {
               </div>
             </div>
           </li>
-          <li>
+          <li className="my-5 ">
             <div className="">
               <h2>Marta Silva</h2>
               <div className="flex flex-row gap-2">

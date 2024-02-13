@@ -55,6 +55,13 @@
   }
 }
 
+@media (max-width: 768px) {
+  .logo2 {
+    height: 120px; /* Adjust the height for smaller screens */
+    width: 250px;
+  }
+}
+
 .puntacana {
   width: 100%;
   height: 220px;
