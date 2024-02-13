@@ -10,8 +10,8 @@ const Form = () => {
 
   return (
     <form className="flex justify-center items-center h-auto formulario">
-      <div className="container mt-32 mb-20 mx-60 p-8 flex-1 w-1/3 h-1/3 bg-white  bg-opacity-40 shadow-xl border border-gray-300 rounded-md">
-        <h1 className="text-4xl font-bold mb-4">Pedido de Orçamento</h1>
+      <div className="container mt-16 lg:mt-32 lg:mb-20 lg:mx-60 p-8 flex-1 lg:w-1/3 lg:h-1/3 bg-white  bg-opacity-40 shadow-xl border border-gray-300 rounded-md">
+        <h1 className="text-2xl lg:text-4xl font-bold mb-4">Pedido de Orçamento</h1>
         <div className="mt-4 ">
           <label
             htmlFor="nome"
