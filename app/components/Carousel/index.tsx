@@ -73,13 +73,12 @@ const Carousel = () => {
           <div id="slide3" className="carousel-item relative w-full">
             <div className="w-80 h-80 m-1">
               <p className="rounded-lg bg-white py-2 px-4 max-w-xs ">
-                <span className="font-bold">Patricia L.</span>
+                <span className="font-bold">Inês S.C.</span>
                 <br />
-                Um muito obrigada Paraaquelesqueamamviajar! Especialmente à
-                Márcia Santos que tão bem soube organizar a nossa viagem a
-                Paris, estando sempre disponível para qualquer alteração, pedido
-                ou apoio. A repetir, sem duvida. Está recomendadíssimo. Top 👌
-                5⭐️
+                Excelente serviço. Ajudaram a escolher o destino e apresentaram
+                opções excelentes e alinhadas com o que queríamos. Não tivemos
+                que nos preocupar com nada, apenas com aproveitar a nossa
+                viagem! 5⭐️
               </p>
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -94,12 +93,15 @@ const Carousel = () => {
           <div id="slide4" className="carousel-item relative w-full">
             <div className="w-80 h-80 m-1">
               <p className="rounded-lg bg-white py-2 px-4 max-w-xs ">
-                <span className="font-bold">Rita F.</span>
+                <span className="font-bold">Eduardo V.</span>
                 <br />
-                Das melhores viagens que fiz ! A Márcia é espetacular, uma
-                querida 100% disponível para responder a todas as dúvidas e
-                questões, mesmo sendo eu uma chata 😆 Todas as minhas férias
-                passarão a ser marcadas aqui. Obrigada ❤️
+                Atendimento personalizado, profissional e muito simpático. Foi
+                muito atenciosa e flexível quanto às nossas necessidades. Nunca
+                tentou impor a sua vontade ou uma determinada viagem ou
+                itinerário, mas antes, adequou-se às nossas exigências e
+                conseguiu superar as nossas expectativas, sugerindo sempre
+                hipóteses muito interessantes e com um fantástico preço. O
+                difícil foi escolher... 😉 Por mim, altamente recomendada...
               </p>
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -171,13 +173,12 @@ const Carousel = () => {
           >
             <div className="w-80 h-80 m-1">
               <p className="rounded-lg bg-white py-2 px-4 max-w-xs ">
-                <span className="font-bold">Patricia L.</span>
+                <span className="font-bold">Inês S.C.</span>
                 <br />
-                Um muito obrigada Paraaquelesqueamamviajar! Especialmente à
-                Márcia Santos que tão bem soube organizar a nossa viagem a
-                Paris, estando sempre disponível para qualquer alteração, pedido
-                ou apoio. A repetir, sem duvida. Está recomendadíssimo. Top 👌
-                5⭐️
+                Excelente serviço. Ajudaram a escolher o destino e apresentaram
+                opções excelentes e alinhadas com o que queríamos. Não tivemos
+                que nos preocupar com nada, apenas com aproveitar a nossa
+                viagem! 5⭐️
               </p>
             </div>
           </div>
@@ -188,12 +189,15 @@ const Carousel = () => {
           >
             <div className="w-80 h-80 m-1">
               <p className="rounded-lg bg-white py-2 px-4 max-w-xs ">
-                <span className="font-bold">Rita F.</span>
+                <span className="font-bold">Eduardo V.</span>
                 <br />
-                Das melhores viagens que fiz ! A Márcia é espetacular, uma
-                querida 100% disponível para responder a todas as dúvidas e
-                questões, mesmo sendo eu uma chata 😆 Todas as minhas férias
-                passarão a ser marcadas aqui. Obrigada ❤️
+                Atendimento personalizado, profissional e muito simpático. Foi
+                muito atenciosa e flexível quanto às nossas necessidades. Nunca
+                tentou impor a sua vontade ou uma determinada viagem ou
+                itinerário, mas antes, adequou-se às nossas exigências e
+                conseguiu superar as nossas expectativas, sugerindo sempre
+                hipóteses muito interessantes e com um fantástico preço. O
+                difícil foi escolher... 😉 Por mim, altamente recomendada...
               </p>
             </div>
           </div>

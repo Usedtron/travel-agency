@@ -92,7 +92,7 @@ export default function Home() {
             </h2>
             <div className="md:hidden polaroid border border-gray-300 rounded-md p-4  mb-2 w-80 h-auto">
               <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
-                MÁRCIA E MARTA
+                MÁRCIA SANTOS E MARTA SILVA
               </h3>
 
               <Image
@@ -106,15 +106,15 @@ export default function Home() {
             {/* Conteúdo da seção Quem Somos */}
             <div className="flex flex-row">
               <p className="text-justify md:w-3/5 md:flex md:justify-center md:items-center">
-                Olá e bem vindos ao Para aqueles que amam Viajar!
+                Olá e bem vindos ao PARA AQUELES QUE AMAM VIAJAR!
                 <br />
-                <br /> O Para aqueles que Amam Viajar conta com duas amigas,
+                <br /> O PARA AQUELES QUE AMAM VIAJAR conta com duas amigas,
                 Márcia Santos e Marta Silva que além de serem duas apaixonadas
-                em viajar, gostam de juntar a paixão à concretização de sonhos
+                por viajar, gostam de juntar a sua paixão à concretização de sonhos
                 em realidade.
                 <br />
                 <br />
-                Criamos o Para Aqueles que Amam Viajar com a missão de acima de
+                Criámos PARA AQUELES QUE AMAM VIAJAR com a missão de, acima de
                 tudo oferecer uma experiência exclusiva, 100% personalizada ao
                 seu gosto e principalmente ao seu bolso!
               </p>
@@ -130,15 +130,15 @@ export default function Home() {
             </div>
             <p className="text-justify">
               Propomo-nos a ajudar com toda a nossa paixão que temos por esta
-              área e queremos poder tornar todos os seus sonhos, em momentos
+              área e queremos poder tornar todos os seus sonhos em momentos e
               únicos inesquecíveis.
               <br />
               <br /> Temos todas as ferramentas que nos permitem aceder a todas
-              as principais Companhias Aéreas low-cost e regulares, cadeias
+              as principais companhias aéreas low-cost e regulares, cadeias
               hoteleiras, operadores turísticos, transferes, excursões e
               seguros, de uma forma rápida e 100% disponível.
               <br />
-              <br /> Vem connosco embarcar nesta aventura!
+              <br /> Venha connosco embarcar nesta aventura!
             </p>
           </div>
         </section>
@@ -159,4 +159,4 @@ export default function Home() {
   );
 }
 import React from "react";
-import Destinos from "./components/destinos/inde";
+import Destinos from "./components/destinos";

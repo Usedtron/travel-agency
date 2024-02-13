@@ -26,15 +26,15 @@ const Carousel = () => {
               <Image
                 className="p-4 zanzibar"
                 src="/zanzibar.jpg"
-                alt="zanzibar"
+                alt=""
                 height={100}
                 width={300}
               />
-              <p className="text-sm text-gray-600 px-4 m-2">
-                Hakuna Matata, é tão fácil dizer! Apaixona-te pela ilhas das
-                especiarias, relaxa nas praias de areia branca, visita a Ilha da
+              <p className="text-sm text-gray-600 px-4 m-2 text-justify">
+                Hakuna Matata, é tão fácil dizer! Apaixone-se pela ilhas das
+                especiarias, relaxe nas praias de areia branca, visite a Ilha da
                 Prisão para vivenciares momentos com as tartarugas gigantes!
-                Zanzibar tem muito para oferecer! Arriscas?
+                Zanzibar tem muito para oferecer!
               </p>
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -58,11 +58,11 @@ const Carousel = () => {
                 height={100}
                 width={300}
               />
-              <p className="text-sm text-gray-600 px-4 m-2">
+              <p className="text-sm text-gray-600 px-4 m-2 text-justify">
                 Punta Cana é dos destinos mais procurados pelos viajantes de
-                todo o mundo! É a tua vez de conheceres este paraíso! Dança ao
-                ritmo da Bachata, mergulha nas praias incríveis de areia branca,
-                ruma até Isla Saona e diverte-te no CocoBongo!
+                todo o mundo! É a sua vez de conhecer este paraíso! Dance ao
+                ritmo da Bachata, mergulhe nas praias incríveis de areia branca,
+                rume até Isla Saona e diverta-se no CocoBongo!
               </p>
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -87,9 +87,9 @@ const Carousel = () => {
                 height={100}
                 width={300}
               />
-              <p className="text-sm text-gray-600 px-4 m-2">
+              <p className="text-sm text-gray-600 px-4 m-2 text-justify">
                 A cidade maravilhosa faz jus ao apelido! Festas, praias,
-                cultura, gastronomia e clima tropical! Diverte-te no Rio de
+                cultura, gastronomia e clima tropical! Diverta-se no Rio de
                 Janeiro ao ritmo do Samba!
               </p>
             </div>
@@ -116,7 +116,7 @@ const Carousel = () => {
               />
               <p className="text-sm text-gray-600 px-4 m-2">
                 Montanhas Russa, carrosséis, castelos de princesa, a casa do
-                Mickey Mouse ou o mundo mágico do Ratatouille. Qual o teu
+                Mickey Mouse ou o mundo mágico do Ratatouille. Qual o seu
                 preferido?
               </p>
             </div>
@@ -141,11 +141,11 @@ const Carousel = () => {
                 height={100}
                 width={300}
               />
-              <p className="text-sm text-gray-600 px-4 m-2">
-                Prepara-te para uma viagem até aos anos 50! Havana é uma das
-                cidades mais singulares do mundo e tu vais adorar conhecer!
-                Desfruta da cultura Cubana, dança ao ritmo da salsa, bebe um
-                Mojito e faz um passeio num dos carros antigos!
+              <p className="text-sm text-gray-600 px-4 m-2 text-justify">
+                Prepare-se para uma viagem até aos anos 50! Havana é uma das
+                cidades mais singulares do mundo e você vais adorar conhecer!
+                Desfrute da cultura Cubana, dance ao ritmo da salsa, beba um
+                Mojito e faça um passeio num dos carros antigos!
               </p>
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -198,11 +198,12 @@ const Carousel = () => {
                 height={100}
                 width={300}
               />
-              <p className="text-sm text-gray-600 px-4 m-2">
-                Mergulha na agitação e luzes brilhantes de Times Square, assiste
-                a um espetáculo da Broadway. Aproveita para conhecer a Grand
-                Central Terminal e perde-te no Central Park, um dos destaques da
-                cidade! Estás preparado para a cidade que nunca dorme?
+              <p className="text-sm text-gray-600 px-4 m-2 text-justify">
+                Mergulhe na agitação e luzes brilhantes de Times Square e
+                assista a um espetáculo da Broadway. Aproveite para conhecer a
+                Grand Central Terminal e desfrute do Central Park, um dos
+                destaques da cidade! Está preparado para a cidade que nunca
+                dorme?
               </p>
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -238,11 +239,11 @@ const Carousel = () => {
                 height={100}
                 width={300}
               />
-              <p className="text-sm text-gray-600 px-4 m-2">
+              <p className="text-sm text-gray-600 px-4 m-2 text-justify">
                 Punta Cana é dos destinos mais procurados pelos viajantes de
-                todo o mundo! É a tua vez de conheceres este paraíso! Dança ao
-                ritmo da Bachata, mergulha nas praias incríveis de areia branca,
-                ruma até Isla Saona e diverte-te no CocoBongo!
+                todo o mundo! É a sua vez de conhecer este paraíso! Dance ao
+                ritmo da Bachata, mergulhe nas praias incríveis de areia branca,
+                rume até Isla Saona e diverta-se no CocoBongo!
               </p>
             </div>
           </div>
@@ -263,11 +264,11 @@ const Carousel = () => {
                 height={100}
                 width={300}
               />
-              <p className="text-sm text-gray-600 px-4 m-2">
-                Hakuna Matata, é tão fácil dizer! Apaixona-te pela ilhas das
-                especiarias, relaxa nas praias de areia branca, visita a Ilha da
+              <p className="text-sm text-gray-600 px-4 m-2 text-justify">
+                Hakuna Matata, é tão fácil dizer! Apaixone-se pela ilhas das
+                especiarias, relaxe nas praias de areia branca, visite a Ilha da
                 Prisão para vivenciares momentos com as tartarugas gigantes!
-                Zanzibar tem muito para oferecer! Arriscas?
+                Zanzibar tem muito para oferecer!
               </p>
             </div>
           </div>
@@ -288,9 +289,9 @@ const Carousel = () => {
                 height={100}
                 width={300}
               />
-              <p className="text-sm text-gray-600 px-4 m-2">
+              <p className="text-sm text-gray-600 px-4 m-2 text-justify">
                 A cidade maravilhosa faz jus ao apelido! Festas, praias,
-                cultura, gastronomia e clima tropical! Diverte-te no Rio de
+                cultura, gastronomia e clima tropical! Diverta-se no Rio de
                 Janeiro ao ritmo do Samba!
               </p>
             </div>
@@ -313,7 +314,7 @@ const Carousel = () => {
               />
               <p className="text-sm text-gray-600 px-4 m-2">
                 Montanhas Russa, carrosséis, castelos de princesa, a casa do
-                Mickey Mouse ou o mundo mágico do Ratatouille. Qual o teu
+                Mickey Mouse ou o mundo mágico do Ratatouille. Qual o seu
                 preferido?
               </p>
             </div>
@@ -334,11 +335,11 @@ const Carousel = () => {
                 height={100}
                 width={300}
               />
-              <p className="text-sm text-gray-600 px-4 m-2">
-                Prepara-te para uma viagem até aos anos 50! Havana é uma das
-                cidades mais singulares do mundo e tu vais adorar conhecer!
-                Desfruta da cultura Cubana, dança ao ritmo da salsa, bebe um
-                Mojito e faz um passeio num dos carros antigos!
+              <p className="text-sm text-gray-600 px-4 m-2 text-justify">
+                Prepare-se para uma viagem até aos anos 50! Havana é uma das
+                cidades mais singulares do mundo e você vais adorar conhecer!
+                Desfrute da cultura Cubana, dance ao ritmo da salsa, beba um
+                Mojito e faça um passeio num dos carros antigos!
               </p>
             </div>
           </div>
@@ -383,11 +384,12 @@ const Carousel = () => {
                 height={100}
                 width={300}
               />
-              <p className="text-sm text-gray-600 px-4 m-2">
-                Mergulha na agitação e luzes brilhantes de Times Square, assiste
-                a um espetáculo da Broadway. Aproveita para conhecer a Grand
-                Central Terminal e perde-te no Central Park, um dos destaques da
-                cidade! Estás preparado para a cidade que nunca dorme?
+              <p className="text-sm text-gray-600 px-4 m-2 text-justify">
+                Mergulhe na agitação e luzes brilhantes de Times Square e
+                assista a um espetáculo da Broadway. Aproveite para conhecer a
+                Grand Central Terminal e desfrute do Central Park, um dos
+                destaques da cidade! Está preparado para a cidade que nunca
+                dorme?
               </p>
             </div>
           </div>
