@@ -158,7 +158,6 @@ const SwiperDemo = () => {
 <div className="lg:hidden">
       <swiper-container
         className=""
-        navigation={true}
         pagination={true}
         pagination-clickable={true}
         space-between={1}

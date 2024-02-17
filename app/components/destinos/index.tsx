@@ -192,7 +192,6 @@ const CarrDD = () => {
       <div className="lg:hidden align-center">
         <swiper-container
           className=""
-          navigation={true}
           pagination={true}
           pagination-clickable={true}
           space-between={1}
