@@ -49,7 +49,7 @@
 
 @media (max-width: 768px) {
   .logoimage {
-    height: 30px; /* Adjust the height for smaller screens */
+    height: 40px; /* Adjust the height for smaller screens */
     width: 60px;
   }
 }
