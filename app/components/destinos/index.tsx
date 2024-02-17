@@ -311,7 +311,7 @@ const CarrDD = () => {
                 height={100}
                 width={300}
               />
-              <p className="text-sm text-gray-600 px-4 m-2">
+              <p className="text-sm text-gray-600 px-4 m-2 h-40">
                 Explore a mágica Capadócia e mergulhe em um mundo de maravilhas
                 esculturais esculpidas pela natureza, onde os balões de ar
                 quente dançam pelos céus pintados de tons dourados. Deixe-se
