@@ -151,7 +151,9 @@ export default function Home() {
               Testemunhos
             </h2>
             {/* Conteúdo da seção Testemunhos */}
-            <Carousel />
+            <SwiperDemo>
+              
+            </SwiperDemo>
           </div>
         </section>
       </div>
@@ -159,4 +161,5 @@ export default function Home() {
   );
 }
 import React from "react";
-import Destinos from "./components/destinos";
+import Destinos from "./components/destinos";import SwiperDemo from "./components/Swiper";
+

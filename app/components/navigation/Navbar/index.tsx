@@ -12,7 +12,7 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="navbar bg-white text-orange-400 py-2 fixed w-full top-0 z-10 shadow-md h-6">
+    <div className="navbar bg-white text-orange-500 py-2 fixed w-full top-0 z-10 shadow-md h-6">
       <div className="navbar-start">
         <div className="flex items-center">
           <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
@@ -32,7 +32,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <a href="/form" className="btn bg-orange-300 text-white btn-sm">
+        <a href="/form" className="btn bg-orange-400 text-white btn-sm">
           Enviar Pedido
         </a>
       </div>
