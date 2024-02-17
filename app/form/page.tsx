@@ -7,7 +7,22 @@ import "react-datepicker/dist/react-datepicker.css";
 const Form = () => {
   const [startDate, setStartDate] = useState<Date | null>(null);
   const [endDate, setEndDate] = useState<Date | null>(null);
+  
+  const handleStartDateChange = (date: Date | null) => {
+    if (date && endDate && date > endDate) {
+      // If the new start date is after the end date, adjust the end date to be the same as the start date
+      setEndDate(date);
+    }
+    setStartDate(date);
+  };
 
+  const handleEndDateChange = (date: Date | null) => {
+    if (date && startDate && date < startDate) {
+      // If the new end date is before the start date, adjust the start date to be the same as the end date
+      setStartDate(date);
+    }
+    setEndDate(date);
+  };
   return (
     <form className="flex justify-center items-center h-auto formulario">
       <div className="container mt-16 lg:mt-32 lg:mb-20 lg:mx-60 p-8 flex-1 lg:w-1/3 lg:h-1/3 bg-white  bg-opacity-40 shadow-xl border border-gray-300 rounded-md">
@@ -147,6 +162,7 @@ const Form = () => {
             type="number"
             id="orcamento"
             name="orcamento"
+            min={0}
             required
             className="mt-1 p-2 w-36 border rounded-md"
           />
