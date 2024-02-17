@@ -17,7 +17,7 @@ const CarrDD = () => {
         }
         
         .swiper-slide {
-          max-width: 90px;
+          max-width: 100px;
           text-align: center;
           font-size: 18px;
           background: #fff;
@@ -45,7 +45,7 @@ const CarrDD = () => {
           slides-per-view={3}
         >
           <swiper-slide className="">
-            <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto">
+            <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-auto h-auto">
               <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
                 ZANZIBAR
               </h3>
@@ -66,7 +66,7 @@ const CarrDD = () => {
           </swiper-slide>
           <swiper-slide>
             {" "}
-            <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto ">
+            <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-auto h-auto ">
               <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
                 PUNTA CANA
               </h3>
@@ -86,7 +86,7 @@ const CarrDD = () => {
             </div>
           </swiper-slide>
           <swiper-slide>
-            <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto">
+            <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-auto h-auto">
               <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
                 CUBA
               </h3>
@@ -106,7 +106,7 @@ const CarrDD = () => {
             </div>
           </swiper-slide>
           <swiper-slide className="">
-            <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto">
+            <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-auto h-auto">
               <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
                 BRASIL
               </h3>
@@ -127,7 +127,7 @@ const CarrDD = () => {
           </swiper-slide>
           <swiper-slide>
             {" "}
-            <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 ">
+            <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-auto ">
               <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
                 DISNEYLAND PARIS
               </h3>
@@ -146,7 +146,7 @@ const CarrDD = () => {
             </div>
           </swiper-slide>
           <swiper-slide>
-            <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto">
+            <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-auto h-auto">
               <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
                 CAPADOCIA
               </h3>
@@ -157,17 +157,15 @@ const CarrDD = () => {
                 height={100}
                 width={300}
               />
-              <p className="text-sm text-gray-600 px-4 m-2">
+              <p className="text-sm text-gray-600 px-4 m-2 text-justify h-40">
                 Explore a mágica Capadócia e mergulhe em um mundo de maravilhas
                 esculturais esculpidas pela natureza, onde os balões de ar
-                quente dançam pelos céus pintados de tons dourados. Deixe-se
-                encantar pela história, cultura e paisagens únicas desta terra
-                dos contos de fadas.
+                quente dançam pelos céus pintados de tons dourados.
               </p>
             </div>
           </swiper-slide>
           <swiper-slide>
-            <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto">
+            <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-auto h-auto">
               <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
                 ESTADOS UNIDOS DA AMERICA
               </h3>

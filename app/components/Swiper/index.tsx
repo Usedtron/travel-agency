@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
 import Image from "next/image";
-import './styles.css';
 
 // import function to register Swiper custom elements
 import { register } from "swiper/element/bundle";
@@ -84,7 +83,7 @@ const SwiperDemo = () => {
             </div>
           </swiper-slide>
           <swiper-slide>
-            <div className="w-75 h-80 m-1">
+          <div className="w-90 h-90 m-1 bg-white rounded-lg">
               <p className="rounded-lg bg-white py-2 px-4 max-w-xs ">
                 <span className="font-bold">Inês S.C.</span>
                 <br />
@@ -93,6 +92,13 @@ const SwiperDemo = () => {
                 que nos preocupar com nada, apenas com aproveitar a nossa
                 viagem! 5⭐️
               </p>
+              <Image
+                className="p-4"
+                src="/madeira.jpg"
+                alt="madeira"
+                height={100}
+                width={300}
+              />{" "}
             </div>
           </swiper-slide>
           <swiper-slide>
@@ -122,13 +128,6 @@ const SwiperDemo = () => {
                 Pela qualidade e plena confiança já tenho mais viagens
                 reservadas para este ano. Super recomendo!
               </p>
-              <Image
-                className="p-4"
-                src="/cuba.jpg"
-                alt="Burger"
-                height={100}
-                width={300}
-              />
             </div>
           </swiper-slide>
           <swiper-slide>
@@ -144,13 +143,6 @@ const SwiperDemo = () => {
                 para aquele mundo que literalmente parece á parte! Obrigada por
                 toda a ajuda que me deste em todos os pormenores que eu penso ❤️
               </p>
-              <Image
-                className="p-4"
-                src="/cuba.jpg"
-                alt="Burger"
-                height={100}
-                width={300}
-              />
             </div>
           </swiper-slide>
       </swiper-container>
@@ -178,7 +170,7 @@ const SwiperDemo = () => {
               <Image
                 className="p-4"
                 src="/cuba.jpg"
-                alt="Burger"
+                alt="cuba"
                 height={100}
                 width={300}
               />{" "}
@@ -205,8 +197,7 @@ const SwiperDemo = () => {
           </div>
         </swiper-slide>
         <swiper-slide>
-          <div className="flex justify-center items-center h-90 w-full">
-            <div className="w-75 h-80 m-1">
+        <div className="w-90 h-90 m-1 bg-white rounded-lg">
               <p className="rounded-lg bg-white py-2 px-4 max-w-xs ">
                 <span className="font-bold">Inês S.C.</span>
                 <br />
@@ -215,8 +206,14 @@ const SwiperDemo = () => {
                 que nos preocupar com nada, apenas com aproveitar a nossa
                 viagem! 5⭐️
               </p>
+              <Image
+                className="p-4"
+                src="/madeira.jpg"
+                alt="madeira"
+                height={100}
+                width={300}
+              />{" "}
             </div>
-          </div>
         </swiper-slide>
         <swiper-slide>
           <div className="flex justify-center items-center h-90 w-full">
@@ -248,13 +245,6 @@ const SwiperDemo = () => {
                 Pela qualidade e plena confiança já tenho mais viagens
                 reservadas para este ano. Super recomendo!
               </p>
-              <Image
-                className="p-4"
-                src="/cuba.jpg"
-                alt="Burger"
-                height={100}
-                width={300}
-              />
             </div>
           </div>
         </swiper-slide>
@@ -272,13 +262,6 @@ const SwiperDemo = () => {
                 para aquele mundo que literalmente parece á parte! Obrigada por
                 toda a ajuda que me deste em todos os pormenores que eu penso ❤️
               </p>
-              <Image
-                className="p-4"
-                src="/cuba.jpg"
-                alt="Burger"
-                height={100}
-                width={300}
-              />
             </div>
           </div>
         </swiper-slide>
