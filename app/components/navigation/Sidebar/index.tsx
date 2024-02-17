@@ -44,14 +44,14 @@ const Sidebar = (props: SidebarProps) => {
               src="/logo2.png"
               alt="Logo"
               width={120}
-              height={120}
+              height={100}
             />
           </div>
           <a
             href="/form"
             className="btn bg-orange-400 text-white btn-sm flex rounded-none w-64"
           >
-            Enviar Pedido
+            ORÇAMENTO
           </a>
           <li>
             <a href="/#destinos" className="">

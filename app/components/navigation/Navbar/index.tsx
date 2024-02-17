@@ -30,7 +30,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-center hidden lg:flex">
         <a href="/form" className="btn bg-orange-400 text-white btn-sm">
-          Enviar Pedido
+          ORÇAMENTO
         </a>
       </div>
       <div className="navbar-end hidden lg:flex">
