@@ -71,7 +71,8 @@ const Footer = () => {
     </div>
     <div className="container mx-auto">
     <div className="text-xs flex flex-col md:flex-row md:justify-between space-y-4 md:space-y-0 md:space-x-4">
-       <div className="flex space-x-4">
+       <div className="flex flex-col md:flex-row space-x-4">
+       <br />
         <Link href="/legal-notice">
           <p>Aviso Legal</p>
         </Link>
