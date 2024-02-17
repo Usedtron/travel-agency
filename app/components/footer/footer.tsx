@@ -90,7 +90,7 @@ const Footer = () => {
       </div>
       <p>
         &copy; {new Date().getFullYear()} Para Aqueles que Amam Viajar |
-        RNAVT n.º 11.332
+        RNAVT n.º 11332
         <br />
         Rua do Movimento Republicano, 16, 1.º Esquerdo Parque Luso 2855-716
         Corroios
