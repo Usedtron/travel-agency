@@ -12,7 +12,7 @@ const Sidebar = (props: SidebarProps) => {
     <div className="flex items-center">
       {/* Sidebar */}
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-white bg-opacity-85 backdrop-blur-sm shadow-lg z-50 transform transition-transform duration-300 overflow-visible ${
+        className={`fixed top-0 left-0 h-full w-64 bg-white bg-opacity-95 shadow-lg z-50 transform transition-transform duration-300 overflow-visible ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
@@ -53,29 +53,37 @@ const Sidebar = (props: SidebarProps) => {
           >
             ORÇAMENTO
           </a>
+          <a
+            href="/form"
+            className="btn bg-gray-200 text-[#3CAFA0] btn-sm flex rounded-none w-64"
+          >
+            VOUCHER
+          </a>
           <li>
-            <a href="/#destinos" className="">
+            <a href="/#destinos" className="font-semibold text-[#3CAFA0]">
               Destinos
             </a>
           </li>
           <li>
-            <a href="/#quemsomos" className="">
+            <a href="/#quemsomos" className="font-semibold text-[#3CAFA0]">
               Quem Somos
             </a>
           </li>
           <li>
-            <a href="/#testemunhos" className="">
+            <a href="/#testemunhos" className="font-semibold text-[#3CAFA0]">
               Testemunhos
             </a>
           </li>
           <li className="mb-10">
-            <a href="/contacts" className="">
+            <a href="/contacts" className="font-semibold text-[#3CAFA0]">
               Contactos
             </a>
           </li>
+        
+          
           <li className="border-t-2 border-gray-100 w-64 flex justify-center ">
             <div className="mt-20">
-              <h2 className="">Marcia Santos</h2>
+              <h2 className="text-[#3CAFA0]">Marcia Santos</h2>
               <div className="flex flex-row gap-2">
                 <Link
                   target="_blank"
@@ -121,7 +129,7 @@ const Sidebar = (props: SidebarProps) => {
           </li>
           <li className="">
             <div className="">
-              <h2>Marta Silva</h2>
+              <h2 className="text-[#3CAFA0]">Marta Silva</h2>
               <div className="flex flex-row gap-2">
                 <Link
                   target="_blank"
