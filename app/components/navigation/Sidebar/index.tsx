@@ -54,7 +54,7 @@ const Sidebar = (props: SidebarProps) => {
             ORÇAMENTO
           </a>
           <a
-            href="/voucher"
+            href="/vouchers"
             className="btn bg-gray-200 text-[#3CAFA0] border-white btn-sm flex rounded-none w-64"
           >
             VOUCHER

@@ -1,9 +1,9 @@
-// pages/Voucher.js
 "use client";
 import { useState } from "react";
 import Image from "next/image";
+import React from "react";
 
-const Voucher = () => {
+const Vouchers = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -176,4 +176,4 @@ const Voucher = () => {
   );
 };
 
-export default Voucher;
+export default Vouchers;

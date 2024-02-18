@@ -29,10 +29,18 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <a href="/form" className="btn bg-orange-400 text-white btn-sm border-white">
-          ORÇAMENTO
-        </a>
-      </div>
+      <a
+            href="/form"
+            className="btn bg-orange-400 text-white border-white btn-sm flex rounded-none w-32"
+          >
+            ORÇAMENTO
+          </a>
+          <a
+            href="/vouchers"
+            className="btn bg-gray-200 text-[#3CAFA0] border-white btn-sm flex rounded-none w-32"
+          >
+            VOUCHER
+          </a>      </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-gray-600">
           <li>
