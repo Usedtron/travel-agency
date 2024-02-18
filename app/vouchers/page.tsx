@@ -124,7 +124,7 @@ const Vouchers = () => {
                 name="voucherType"
                 value={formData.voucherType}
                 onChange={handleChange}
-                className="mt-2 p-2 w-36 border rounded-md bg-white"
+                className="mt-2 p-2 w-full lg:w-36 border rounded-md bg-white"
               >
                 <option value="">Selecionar</option>
                 <option value="lua_de_mel">Lua de Mel</option>
@@ -139,7 +139,7 @@ const Vouchers = () => {
                 name="offerValue"
                 value={formData.offerValue}
                 onChange={handleChange}
-                className="mt-2 p-2 w-36 border rounded-md bg-white"
+                className="mt-2 p-2 w-full lg:w-36 border rounded-md bg-white"
               >
                 <option value="">Selecionar</option>
                 <option value="100">100 euros</option>
