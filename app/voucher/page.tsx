@@ -12,7 +12,7 @@ const Voucher = () => {
     offerValue: "",
   });
 
-  const handleChange = (e) => {
+  const handleChange = (e:any) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
       ...prevData,
@@ -20,7 +20,7 @@ const Voucher = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e:any) => {
     e.preventDefault();
     // Aqui você pode adicionar a lógica para enviar os dados do formulário
     console.log(formData);
