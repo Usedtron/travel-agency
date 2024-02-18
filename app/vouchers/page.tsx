@@ -150,10 +150,10 @@ const Vouchers = () => {
       <div className="flex flex-col">
         <p className="text-justify md:flex md:justify-center md:items-center">
           <br />
-          Podes adquirir um cheque presente;
+          Pode adquirir um cheque presente;
           <br />
           <br />
-          Podem ser utilizados para viagens após o final da data do cheque desde
+          Podem ser utilizados para viagens após o final da data do cheque, desde
           que adquiridos antes da data de validade terminar;
           <br />
           <br />
@@ -167,12 +167,12 @@ const Vouchers = () => {
           Podem ser utilizados em todos com serviços de PARA AQUELES QUE AMAM
           VIAJAR.
           <br />
-          <br />O titular do cheque viagem pode fazer uso do mesmo, para seu
-          proveito enquanto viajante ou utilizar o cheque viagem para a compra
+          <br />O titular do cheque viagem pode fazer uso do mesmo para seu
+          proveito enquanto viajante, ou utilizar o cheque viagem para a compra
           de serviços para outros passageiros.
           <br />
           <br />
-          Todos os cheques tem a validade de um ano a contar da data de compra,
+          Todos os cheques têm a validade de um ano a contar da data de compra,
           após este prazo o titular do voucher perde o direto à sua utilização.
           <br />
           <br />
