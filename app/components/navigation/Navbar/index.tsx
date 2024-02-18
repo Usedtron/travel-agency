@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <a href="/form" className="btn bg-orange-400 text-white btn-sm">
+        <a href="/form" className="btn bg-orange-400 text-white btn-sm border-white">
           ORÇAMENTO
         </a>
       </div>

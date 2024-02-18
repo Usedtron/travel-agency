@@ -26,7 +26,7 @@ const Form = () => {
   return (
     <form className="flex justify-center items-center h-auto formulario">
       <div className="container mt-16 lg:mt-32 lg:mb-20 lg:mx-60 p-8 flex-1 lg:w-1/3 lg:h-1/3 bg-white  bg-opacity-40 shadow-xl border border-gray-300 rounded-md">
-        <h1 className="text-2xl lg:text-4xl font-bold mb-4">Pedido de Orçamento</h1>
+        <h1 className="text-2xl lg:text-4xl font-bold mb-4 text-black">Pedido de Orçamento</h1>
         <div className="mt-4 ">
           <label
             htmlFor="nome"
@@ -39,7 +39,7 @@ const Form = () => {
             id="nome"
             name="nome"
             required
-            className="mt-1 p-2 w-full border rounded-md"
+            className="mt-1 p-2 w-full border rounded-md bg-white"
           />
         </div>
         <div className="mt-4">
@@ -54,7 +54,7 @@ const Form = () => {
             id="email"
             name="email"
             required
-            className="mt-1 p-2 w-full border rounded-md"
+            className="mt-1 p-2 w-full border rounded-md bg-white"
           />
         </div>
         <div className="mt-4">
@@ -69,7 +69,7 @@ const Form = () => {
             id="destino"
             name="destino"
             required
-            className="mt-1 p-2 w-full border rounded-md"
+            className="mt-1 p-2 w-full border rounded-md bg-white"
           />
         </div>
         <div className="mt-4">
@@ -86,13 +86,13 @@ const Form = () => {
             startDate={startDate}
             endDate={endDate}
             dateFormat="dd/MM/yyyy"
-            className="mt-1 p-2 w-full border rounded-md"
+            className="mt-1 p-2 w-full border rounded-md bg-white"
           />
         </div>
         <div className="mt-4">
           <label
             htmlFor="endDate"
-            className="block text-sm font-medium text-gray-600"
+            className="block text-sm font-medium text-gray-600 bg"
           >
             Data de volta:
           </label>
@@ -104,7 +104,7 @@ const Form = () => {
             endDate={endDate}
             minDate={startDate}
             dateFormat="dd/MM/yyyy"
-            className="mt-1 p-2 w-full border rounded-md"
+            className="mt-1 p-2 w-full border rounded-md bg-white"
           />
         </div>
 
@@ -119,7 +119,7 @@ const Form = () => {
             id="numAdultos"
             name="numAdultos"
             required
-            className="mt-1 p-2 w-36 border rounded-md"
+            className="mt-1 p-2 w-36 border rounded-md bg-white"
           >
             <option value="1">1</option>
             <option value="2">2</option>
@@ -141,7 +141,7 @@ const Form = () => {
             id="numCriancas"
             name="numCriancas"
             required
-            className="mt-1 p-2 w-36 border rounded-md "
+            className="mt-1 p-2 w-36 border rounded-md bg-white"
           >
             <option value="0">0</option>
             <option value="1">1</option>
@@ -164,7 +164,7 @@ const Form = () => {
             name="orcamento"
             min={0}
             required
-            className="mt-1 p-2 w-36 border rounded-md"
+            className="mt-1 p-2 w-36 border rounded-md bg-white"
           />
           <label
             htmlFor="orcamento"
@@ -177,7 +177,7 @@ const Form = () => {
             name="message"
             rows={2}
             required
-            className="mt-1 p-2 w-full border rounded-md"
+            className="mt-1 p-2 w-full border rounded-md bg-white"
           />
         </div>
 

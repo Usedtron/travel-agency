@@ -49,13 +49,13 @@ const Sidebar = (props: SidebarProps) => {
           </div>
           <a
             href="/form"
-            className="btn bg-orange-400 text-white btn-sm flex rounded-none w-64"
+            className="btn bg-orange-400 text-white border-white btn-sm flex rounded-none w-64"
           >
             ORÇAMENTO
           </a>
           <a
             href="/form"
-            className="btn bg-gray-200 text-[#3CAFA0] btn-sm flex rounded-none w-64"
+            className="btn bg-gray-200 text-[#3CAFA0] border-white btn-sm flex rounded-none w-64"
           >
             VOUCHER
           </a>

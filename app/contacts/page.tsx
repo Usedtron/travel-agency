@@ -10,7 +10,7 @@ const Contacts = () => {
 
   return (
     <div className="flex imageContact">
-      <div className="container lg:mt-32 lg:mb-20 lg:mx-60 p-8 lg:flex-1 lg:items-center justify-center lg:w-1/3 lg:h-1/3 bg-white   bg-opacity-60 lg:bg-opacity-80 shadow-xl border border-gray-300 rounded-md">
+      <div className="container  text-black lg:mt-32 lg:mb-20 lg:mx-60 p-8 lg:flex-1 lg:items-center justify-center lg:w-1/3 lg:h-1/3 bg-white   bg-opacity-60 lg:bg-opacity-80 shadow-xl border border-gray-300 rounded-md">
         <h1 className="lg:text-4xl font-bold mb-4">Contactos</h1>
         <p className="lg:text-lg mb-6 font-semibold">
           Márcia Santos +351966420212 <br /> Marta Silva +351966296251 <br />
@@ -31,7 +31,7 @@ const Contacts = () => {
             id="name"
             name="name"
             required
-            className="mt-1 p-2 w-full border rounded-md"
+            className="mt-1 p-2 w-full border rounded-md bg-white"
           />
 
           <label
@@ -45,7 +45,7 @@ const Contacts = () => {
             id="email"
             name="email"
             required
-            className="mt-1 p-2 w-full border rounded-md"
+            className="mt-1 p-2 w-full border rounded-md bg-white"
           />
 
           <label
@@ -59,7 +59,7 @@ const Contacts = () => {
             name="message"
             rows={4}
             required
-            className="mt-1 p-2 w-full border rounded-md"
+            className="mt-1 p-2 w-full border rounded-md bg-white"
           />
 
           <button
