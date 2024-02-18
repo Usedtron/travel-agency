@@ -2,6 +2,10 @@
 import { useState } from "react";
 import Image from "next/image";
 import React from "react";
+// import function to register Swiper custom elements
+import { register } from "swiper/element/bundle";
+// register Swiper custom elements
+register();
 
 const Vouchers = () => {
   const [formData, setFormData] = useState({
@@ -27,10 +31,11 @@ const Vouchers = () => {
   };
 
   return (
+    <>
     <div className="max-w-4xl mx-auto mt-20 px-8">
       <h2 className="text-3xl font-bold mb-4 text-[#3CAFA0]">Voucher</h2>
       <br />
-      <div className="flex flex-wrap">
+      <div className="hidden lg:flex lg:flex-wrap">
         <div className="w-full md:w-1/2 lg:w-1/4 px-2 mb-4">
           <Image src="/v1.png" width={200} height={200} alt="Image 1" />
         </div>
@@ -44,6 +49,104 @@ const Vouchers = () => {
           <Image src="/v4.png" width={200} height={200} alt="Image 4" />
         </div>
         </div>
+        <style>{`
+      .mySwiper {
+        width: 100%;
+        height: 100%;
+      }
+      
+      .swiper-slide {
+        max-width: 100px;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .swiper-slide img {
+        display:;
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      
+    `}</style>
+    
+    <div className="lg:hidden justify-center">
+      <swiper-container
+        className=""
+        pagination={true}
+        pagination-clickable={true}
+        space-between={1}
+        slides-per-view={1}
+      >
+        <swiper-slide className="">
+          <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto">
+            <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
+              LUA DE MEL
+            </h3>
+            <Image
+              className="p-4"
+              src="/v1.png"
+              alt=""
+              height={100}
+              width={300}
+            />
+           
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          {" "}
+          <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto ">
+            <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
+              ANIVERSÁIO
+            </h3>
+            <Image
+              className="p-4"
+              src="/v2.png"
+              alt=""
+              height={100}
+              width={300}
+            />
+            
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto">
+            <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
+              NATAL
+            </h3>
+            <Image
+              className="p-4"
+              src="/v3.png"
+              alt="natal"
+              height={100}
+              width={300}
+            />
+           
+          </div>
+        </swiper-slide>
+        <swiper-slide className="">
+          <div className="polaroid shadow-xl border border-gray-300 rounded-md p-4 m-2 w-80 h-auto">
+            <h3 className="text-sm font-semibold mb-1 text-center text-[#3CAFA0] ">
+              VIAGEM
+            </h3>
+
+            <Image
+              className="p-4"
+              src="/v4.png"
+              alt="viagem"
+              height={100}
+              width={300}
+            />
+            
+          </div>
+        </swiper-slide>
+      </swiper-container>
+    </div>
       <div className="flex flex-col">
         <p className="text-justify md:flex md:justify-center md:items-center">
           <br />
@@ -83,7 +186,7 @@ const Vouchers = () => {
         onSubmit={handleSubmit}
         className="flex justify-center items-center h-auto"
       >
-        <div className="container mt-16 lg:mb-20 lg:mx-60 p-8 flex-1 lg:w-1/3 lg:h-1/3 bg-[#3CAFA0]  bg-opacity-40 shadow-xl border border-gray-300 rounded-md">
+        <div className="container my-16 lg:mb-20 lg:mx-auto p-8 flex-1 lg:w-1/2 lg:h-1/3 bg-[#3CAFA0]  bg-opacity-40 shadow-xl border border-gray-300 rounded-md">
           <div>
             <div>
               <label htmlFor="name">Nome:</label>
@@ -124,7 +227,7 @@ const Vouchers = () => {
                 name="voucherType"
                 value={formData.voucherType}
                 onChange={handleChange}
-                className="mt-2 p-2 w-full lg:w-36 border rounded-md bg-white"
+                className="mt-2 p-2 w-full border rounded-md bg-white"
               >
                 <option value="">Selecionar</option>
                 <option value="lua_de_mel">Lua de Mel</option>
@@ -139,7 +242,7 @@ const Vouchers = () => {
                 name="offerValue"
                 value={formData.offerValue}
                 onChange={handleChange}
-                className="mt-2 p-2 w-full lg:w-36 border rounded-md bg-white"
+                className="mt-2 p-2 w-full border rounded-md bg-white"
               >
                 <option value="">Selecionar</option>
                 <option value="100">100 euros</option>
@@ -173,6 +276,7 @@ const Vouchers = () => {
         </div>
       </form>
     </div>
+    </>
   );
 };
 
