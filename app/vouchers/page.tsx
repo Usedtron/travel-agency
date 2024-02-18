@@ -27,7 +27,7 @@ const Vouchers = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto mt-20">
+    <div className="max-w-4xl mx-auto mt-20 px-8">
       <h2 className="text-3xl font-bold mb-4 text-[#3CAFA0]">Voucher</h2>
       <br />
       <div className="flex flex-wrap">
