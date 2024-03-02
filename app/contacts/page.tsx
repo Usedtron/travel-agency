@@ -3,10 +3,30 @@ import React from "react";
 import Image from "next/image";
 
 const Contacts = () => {
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle form submission logic here
-  };
+  async function handleSubmit(event: React.FormEvent<HTMLFormElement>
+    ) {
+    console.log('event: ', event)
+    event.preventDefault();
+    const formData = new FormData(event.currentTarget);
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        body: formData,
+      });
+
+      if (!response.ok) {
+        console.log("falling over");
+        throw new Error(`response status: ${response.status}`);
+      }
+      const responseData = await response.json();
+      console.log(responseData["message"]);
+
+      alert("Mensagem Enviada com sucesso.");
+    } catch (err) {
+      console.error(err);
+      alert("Erro, tente novamente.");
+    }
+  }
 
   return (
     <div className="flex imageContact">
@@ -14,10 +34,11 @@ const Contacts = () => {
         <h1 className="lg:text-4xl font-bold mb-4">Contactos</h1>
         <p className="lg:text-lg mb-6 font-semibold">
           Márcia Santos +351966420212 <br /> Marta Silva +351966296251 <br />
-
-          <br />geral@paraaquelesqueamamviajar.com
-          <br />Rua do Movimento Republicano, 16, 1.º Esquerdo Parque Luso 2855-716
-            Corroios
+          <br />
+          geral@paraaquelesqueamamviajar.com
+          <br />
+          Rua do Movimento Republicano, 16, 1.º Esquerdo Parque Luso 2855-716
+          Corroios
         </p>
         <form onSubmit={handleSubmit} className="max-w-md">
           <label
@@ -70,12 +91,6 @@ const Contacts = () => {
           </button>
         </form>
       </div>
-                {/*  FIM Seção Missão 
-
-      <div className="flex-2 flex justify-center items-center mt-20 mr-9 mb-16">
-        <Image src="/contacts.jpg" alt="Logo" width={400} height={350} />
-      </div>
-      */}
     </div>
   );
 };
