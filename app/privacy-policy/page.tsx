@@ -4,7 +4,7 @@ import React from "react";
 
 const PrivacyPolicy: React.FC = () => {
   return (
-    <div className="container mx-auto mt-20 p-4 felx-1">
+    <div className="container mx-auto mt-20 p-4 felx-1 ">
       <h1 className="text-3xl font-bold mb-6">Política de Privacidade</h1>
       <div className="pl-6 text-sm text-justify">
         <p>

@@ -23,7 +23,7 @@ const Navbar = () => {
             width={80}
             height={80}
           />
-          <a href="/#home" className="btn btn-ghost text-base md:text-xl font-bold">
+          <a href="/#home" className="btn btn-ghost text-sm md:text-xl font-bold ">
             PARA AQUELES QUE AMAM VIAJAR
           </a>
         </div>

@@ -1,7 +1,7 @@
 interface EmailTemplateProps {
   name: string;
   email: string;
-  message: string;
+  message?: string;
   destino: string;
   startDate: string;
   endDate: string;
@@ -13,7 +13,7 @@ interface EmailTemplateProps {
 export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({
   name,
   email,
-  message,
+  message = "",
   destino,
   startDate,
   endDate,

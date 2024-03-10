@@ -34,7 +34,7 @@ const Vouchers = () => {
 
   return (
     <>
-      <div className="max-w-4xl mx-auto mt-20 px-8">
+      <div className="max-w-4xl mx-auto mt-20 px-8 bg-white">
         <h2 className="text-3xl font-bold mb-4 text-[#3CAFA0]">Voucher</h2>
         <br />
         <div className="hidden lg:flex lg:flex-wrap">
@@ -148,8 +148,8 @@ const Vouchers = () => {
         <div className="flex flex-col">
           <p className="text-justify md:flex md:justify-center md:items-center">
             <br />
-            Pode adquirir um cheque presente;
-            <br />
+            Agora Pode Adquirir um Voucher de  oferta!
+                        <br />
             <br />
             Podem ser utilizados para viagens após o final da data do cheque,
             desde que adquiridos antes da data de validade terminar;

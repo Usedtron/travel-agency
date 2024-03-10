@@ -32,9 +32,7 @@ export async function POST(
       !endDate ||
       !numAdultos ||
       !numCriancas ||
-      !orcamento ||
-      !message
-      
+      !orcamento 
       ) {
         return new NextResponse("Missing fields", { status: 500 });
       }

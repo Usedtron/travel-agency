@@ -83,7 +83,7 @@ const Sidebar = (props: SidebarProps) => {
           
           <li className="border-t-2 border-gray-100 w-64 flex justify-center ">
             <div className="mt-20">
-              <h2 className="text-[#3CAFA0]">Marcia Santos</h2>
+              <h2 className="text-[#3CAFA0]">Márcia Santos</h2>
               <div className="flex flex-row gap-2">
                 <Link
                   target="_blank"

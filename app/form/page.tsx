@@ -205,7 +205,6 @@ const Form = () => {
               id="message"
               name="message"
               rows={2}
-              required
               className="mt-1 p-2 w-full border rounded-md bg-white"
             />
           </div>
