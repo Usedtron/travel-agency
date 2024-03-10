@@ -180,8 +180,7 @@ const CarrDD = () => {
                 Mergulhe na agitação e luzes brilhantes de Times Square e
                 assista a um espetáculo da Broadway. Aproveite para conhecer a
                 Grand Central Terminal e desfrute do Central Park, um dos
-                destaques da cidade! Está preparado para a cidade que nunca
-                dorme?
+                destaques da cidade!
               </p>
             </div>
           </swiper-slide>
