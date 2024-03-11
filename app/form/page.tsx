@@ -211,8 +211,8 @@ const Form = () => {
       </select>
 
       {numCriancas > 0 && (
-        <div>
-          <p>Idades das crianças:</p>
+        <div className="mt-4">
+          <p className="block text-sm font-medium text-gray-600">Idades das crianças:</p>
           {idadesCriancas.map((idade, index) => (
             <input
               key={index}
