@@ -25,7 +25,8 @@ export default function RootLayout({
           <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
           <title>Entre Consulte e Reserva a sua Viagem Para Aqueles que Amam Viajar</title>
           <meta name="description" content="PARA AQUELES QUE AMAM VIAJAR" />
-          <meta name="keywords" content="Vigem, Reservas, Para Aqueles que Amam Viajar" />
+          
+          <meta name="keywords" content="Vigem, Reservas, Para Aqueles que Amam Viajar, agência de viagens, Traveltool, voos low cost, ofertas low cost, viagens, ofertas, reservas, pacotes, voos, cruzeiros, hotéis, férias, turismo, barato, promoções, económicas, viagens, oferta, reserva, pacote, voo, cruzeiro, hotel , promoção, económico, barato, preços baixos" />
           {/* Open Graph */}
           <meta property="og:title" content="Entre Consulte e Reserva a sua Viagem Para Aqueles que Amam Viajar" />
           <meta property="og:type" content="website" />
