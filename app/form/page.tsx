@@ -1,4 +1,4 @@
- // components/Form.js
+// components/Form.js
 "use client";
 import React from "react";
 import { useState } from "react";
@@ -18,7 +18,7 @@ const Form = () => {
 
       if (!response.ok) {
         console.log("falling over");
-        console.log('response: ', response);
+        console.log("response: ", response);
         throw new Error(`response status: ${response.status}`);
       }
       const responseData = await response.json();
@@ -80,6 +80,16 @@ const Form = () => {
               type="email"
               id="email"
               name="email"
+              required
+              className="mt-1 p-2 w-full border rounded-md bg-white"
+            />
+            <label htmlFor="phoneNumber" className="text-gray-600">
+              Número de Telefone:
+            </label>
+            <input
+              type="tel"
+              id="phoneNumber"
+              name="phoneNumber"
               required
               className="mt-1 p-2 w-full border rounded-md bg-white"
             />

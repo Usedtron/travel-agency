@@ -16,6 +16,7 @@ export async function POST(
     const formData = await request.formData();
     const name = formData.get("name")?.toString();
     const email = formData.get("email")?.toString();
+    const phoneNumber = formData.get("phoneNumber")?.toString();
     const destino = formData.get("destino")?.toString();
     const startDate = formData.get("startDate")?.toString();
     const endDate = formData.get("endDate")?.toString();
@@ -27,6 +28,7 @@ export async function POST(
     if (
       !name ||
       !email ||
+      !phoneNumber ||
       !destino ||
       !startDate ||
       !endDate ||
@@ -44,6 +46,7 @@ export async function POST(
       react: EmailTemplate({
         name: name,
         email: email,
+        phoneNumber: phoneNumber,
         destino: destino,
         startDate: startDate,
         endDate: endDate,
