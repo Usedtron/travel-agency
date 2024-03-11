@@ -191,7 +191,7 @@ const Form = () => {
           </div>
           <div className="mt-4">
           <label htmlFor="numCriancas" className="block text-sm font-medium text-gray-600">
-        Número de crianças (até 12 anos):
+        Número de crianças:
       </label>
       <select
         id="numCriancas"
