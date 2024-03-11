@@ -151,12 +151,12 @@ const Vouchers = () => {
             Agora Pode Adquirir um Voucher de  oferta!
                         <br />
             <br />
-            Podem ser utilizados para viagens após o final da data do cheque,
+            Podem ser utilizados para viagens após o final da data do voucher,
             desde que adquiridos antes da data de validade terminar;
             <br />
             <br />
-            Só podem ser utilizados pelos titulares do cheque viagem, fazendo
-            prova com documento de identificação válido. O titular do cheque
+            Só podem ser utilizados pelos titulares do voucher viagem, fazendo
+            prova com documento de identificação válido. O titular do voucher
             viagem é quem fizer prova do mesmo com a consequente apresentação do
             documento de identificação e imagem ou fotografia do cheque viagem
             original.
@@ -165,7 +165,7 @@ const Vouchers = () => {
             Podem ser utilizados em todos com serviços de PARA AQUELES QUE AMAM
             VIAJAR.
             <br />
-            <br />O titular do cheque viagem pode fazer uso do mesmo para seu
+            <br />O titular do voucher viagem pode fazer uso do mesmo para seu
             proveito enquanto viajante, ou utilizar o cheque viagem para a
             compra de serviços para outros passageiros.
             <br />
@@ -175,7 +175,7 @@ const Vouchers = () => {
             utilização.
             <br />
             <br />
-            Os cheques viagem não são convertidos em numerário;
+            Os voucher viagem não são convertidos em numerário;
             <br />
             <br />
             Não são aceites devoluções;
@@ -266,7 +266,7 @@ const Vouchers = () => {
             </div>
             <button
               type="submit"
-              className="bg-blue-500 text-white mt-4 px-4 py-4 rounded-md hover:bg-blue-600"
+              className="bg-[#3CAFA0] text-white mt-4 px-4 py-4 rounded-md hover:bg-[#258f81]"
             >
               Pedir Voucher
             </button>

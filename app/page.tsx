@@ -32,7 +32,7 @@ export default function Home() {
                   height={64}
                   width={64}
                 />
-                <p className="text-center mt-2">ITENERÁRIO À MEDIDA</p>
+                <p className="text-center mt-2">ITINERÁRIO À MEDIDA</p>
               </div>
             </div>
 

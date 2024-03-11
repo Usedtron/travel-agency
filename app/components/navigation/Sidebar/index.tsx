@@ -57,7 +57,7 @@ const Sidebar = (props: SidebarProps) => {
             href="/vouchers"
             className="btn bg-gray-200 text-[#3CAFA0] border-white btn-sm flex rounded-none w-64"
           >
-            VOUCHER
+            VOUCHER VIAGEM
           </a>
           <li>
             <a href="/#destinos" className="font-semibold text-[#3CAFA0]">

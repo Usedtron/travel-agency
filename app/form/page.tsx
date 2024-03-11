@@ -222,9 +222,9 @@ const Form = () => {
           <div className="mt-4">
             <button
               type="submit"
-              className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
+              className="bg-[#3CAFA0] text-white mt-4 px-4 py-4 rounded-md hover:bg-[#258f81]"
             >
-              Enviar
+              Enviar Pedido
             </button>
           </div>
         </form>

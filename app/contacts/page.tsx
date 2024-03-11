@@ -85,9 +85,9 @@ const Contacts = () => {
 
           <button
             type="submit"
-            className="mt-4 bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600"
-          >
-            Enviar
+            className="bg-[#3CAFA0] text-white mt-4 px-2 py-2 rounded-md hover:bg-[#258f81]"
+            >
+            Enviar Pedido 
           </button>
         </form>
       </div>
