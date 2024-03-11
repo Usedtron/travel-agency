@@ -38,7 +38,7 @@ export async function POST(
       }
 
     const data = await resend.emails.send({
-      from: "Acme <onboarding@resend.dev>", // will change after domain verify
+      from: "Cliente <noreply@paraaquelesqueamamviajar.pt>", // will change after domain verify
       to: ["usedtron@gmail.com"], // client's email
       subject: "Pedido de orçamento",
       react: EmailTemplate({
