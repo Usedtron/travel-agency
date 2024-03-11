@@ -227,7 +227,7 @@ const Form = () => {
               max="17"
               value={idade}
               onChange={(event) => handleIdadeChange(index, event)}
-              className="border rounded px-2 py-1 mb-2"
+              className="border rounded px-2 py-1 mb-2 bg-white"
             />
           ))}
         </div>
