@@ -10,6 +10,9 @@ const Form = () => {
     console.log("event: ", event);
     event.preventDefault();
     const formData = new FormData(event.currentTarget);
+    idadesCriancas.forEach((idade, index) => {
+      formData.append(`idade_${index}`, idade.toString());
+    });
     try {
       const response = await fetch("/api/budget", {
         method: "POST",
@@ -46,6 +49,23 @@ const Form = () => {
       setStartDate(date);
     }
     setEndDate(date);
+  };
+  const [numCriancas, setNumCriancas] = useState(0);
+  const [idadesCriancas, setIdadesCriancas] = useState<number[]>([]);
+
+  const handleNumCriancasChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    const quantidade = parseInt(event.target.value);
+    setNumCriancas(quantidade);
+
+    // Gerar idades para as crianças
+    const novasIdades = Array.from({ length: quantidade }, () => 0); // Inicializa todas as idades como 0
+    setIdadesCriancas(novasIdades);
+  };
+
+  const handleIdadeChange = (index: number, event: React.ChangeEvent<HTMLInputElement>) => {
+    const novasIdades = [...idadesCriancas];
+    novasIdades[index] = parseInt(event.target.value);
+    setIdadesCriancas(novasIdades);
   };
   return (
     <div className="flex justify-center items-center h-auto formulario">
@@ -170,25 +190,42 @@ const Form = () => {
             </select>
           </div>
           <div className="mt-4">
-            <label
-              htmlFor="numCriancas"
-              className="block text-sm font-medium text-gray-600"
-            >
-              Número de crianças (até 12 anos):
-            </label>
-            <select
-              id="numCriancas"
-              name="numCriancas"
-              required
-              className="mt-1 p-2 w-36 border rounded-md bg-white"
-            >
-              <option value="0">0</option>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="Mais de 4">Mais de 4</option>
-            </select>
+          <label htmlFor="numCriancas" className="block text-sm font-medium text-gray-600">
+        Número de crianças (até 12 anos):
+      </label>
+      <select
+        id="numCriancas"
+        name="numCriancas"
+        required
+        className="mt-1 p-2 w-36 border rounded-md bg-white"
+        value={numCriancas}
+        onChange={handleNumCriancasChange}
+      >
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+      </select>
+
+      {numCriancas > 0 && (
+        <div>
+          <p>Idades das crianças:</p>
+          {idadesCriancas.map((idade, index) => (
+            <input
+              key={index}
+              type="number"
+              min="0"
+              max="17"
+              value={idade}
+              onChange={(event) => handleIdadeChange(index, event)}
+              className="border rounded px-2 py-1 mb-2"
+            />
+          ))}
+        </div>
+      )}
           </div>
           <div className="mt-4">
             <label

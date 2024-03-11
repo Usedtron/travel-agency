@@ -24,6 +24,17 @@ export async function POST(
     const numCriancas = formData.get("numCriancas")?.toString();
     const orcamento = formData.get("orcamento")?.toString();
     const message = formData.get("message")?.toString();
+    const idadesCriancas: number[] = [];
+    if (numCriancas) {
+      const numCriancasInt = parseInt(numCriancas);
+      for (let i = 0; i < numCriancasInt; i++) {
+        const idade = formData.get(`idade_${i}`);
+        if (idade) {
+          idadesCriancas.push(parseInt(idade.toString()));
+        }
+      }
+    }
+
     
     if (
       !name ||
@@ -52,6 +63,7 @@ export async function POST(
         endDate: endDate,
         numAdultos: numAdultos,
         numCriancas: numCriancas,
+        idadesCriancas: idadesCriancas, // Passar as idades das crianças para o template do email
         orcamento: orcamento,
         message: message,
       }),

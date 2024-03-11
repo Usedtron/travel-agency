@@ -9,6 +9,8 @@ interface EmailTemplateProps {
   numAdultos: string;
   numCriancas: string;
   orcamento: string;
+  idadesCriancas: number[]; // Novo campo para as idades das crianças
+
 }
 
 export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({
@@ -21,6 +23,7 @@ export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({
   endDate,
   numAdultos,
   numCriancas,
+  idadesCriancas, // Recebendo as idades das crianças
   orcamento,
 }) => (
 <div className="max-w-md mx-auto p-8 mt-10 rounded-lg shadow-md">
@@ -33,6 +36,7 @@ export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({
             <p className="mb-2">Data do Fim: {endDate}</p>
             <p className="mb-2">Numero de Adultos: {numAdultos}</p>
             <p className="mb-2">Numero de Crianças: {numCriancas}</p>
+            <p className="mb-2">Idades das Crianças: {idadesCriancas.join(", ")}</p> {/* Mostrando as idades das crianças separadas por vírgula */}
             <p className="mb-2">Orçamento: {orcamento}</p>
             <p className="mb-2">Outras informações: {message}</p>
         </div>
