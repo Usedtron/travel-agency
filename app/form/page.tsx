@@ -63,9 +63,15 @@ const Form = () => {
   };
 
   const handleIdadeChange = (index: number, event: React.ChangeEvent<HTMLInputElement>) => {
+    let novaIdade = parseInt(event.target.value);
+    if (novaIdade < 0) {
+      novaIdade = 0;
+    } else if (novaIdade > 17) {
+      novaIdade = 17;
+    }
     const novasIdades = [...idadesCriancas];
-    novasIdades[index] = parseInt(event.target.value);
-    setIdadesCriancas(novasIdades);
+  novasIdades[index] = novaIdade;
+  setIdadesCriancas(novasIdades);
   };
   return (
     <div className="flex justify-center items-center h-auto formulario">
