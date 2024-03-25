@@ -25,47 +25,60 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-2 mx-auto max-w-4xl">
             {/* Div 1 */}
             <div className="p-4 bg-white rounded-md shadow-md">
-              <div className="flex flex-col items-center">
-                <Image
-                  src="/itenerario.svg"
-                  alt="Icon"
-                  height={64}
-                  width={64}
-                />
-                <p className="text-center mt-2">ITINERÁRIO À MEDIDA</p>
-              </div>
+              <a href="/form">
+                <div className="flex flex-col items-center">
+                  <Image
+                    src="/itenerario.svg"
+                    alt="Icon"
+                    height={64}
+                    width={64}
+                  />
+                  <p className="text-center mt-2">ITINERÁRIO À MEDIDA</p>
+                </div>
+              </a>
             </div>
 
             {/* Div 2 */}
             <div className="p-4 bg-white rounded-md shadow-md">
-              <div className="flex flex-col items-center">
-                <Image src="/ic_hotel.svg" alt="Icon" height={64} width={64} />
-                <p className="text-center mt-2">
-                  HOTEL, TRANSPORTE e ATIVIDADES
-                </p>
-              </div>
+              <a href="/form">
+                <div className="flex flex-col items-center">
+                  <Image
+                    src="/ic_hotel.svg"
+                    alt="Icon"
+                    height={64}
+                    width={64}
+                  />
+                  <p className="text-center mt-2">
+                    HOTEL, TRANSPORTE e ATIVIDADES
+                  </p>
+                </div>
+              </a>
             </div>
 
             {/* Div 3 */}
             <div className="p-4 bg-white rounded-md shadow-md">
-              <div className="flex flex-col items-center mt-2">
-                <Image src="/welcome.svg" alt="Icon" height={64} width={64} />
-                <p className="text-center mt-6">CONFIANÇA</p>
-              </div>
+              <a href="/#testemunhos">
+                <div className="flex flex-col items-center mt-2">
+                  <Image src="/welcome.svg" alt="Icon" height={64} width={64} />
+                  <p className="text-center mt-6">CONFIANÇA</p>
+                </div>
+              </a>
             </div>
 
             {/* Div 4 */}
             <div className="p-4 bg-white rounded-md shadow-md">
-              <div className="flex flex-col items-center">
-                <Image
-                  className=""
-                  src="/ic_support.svg"
-                  alt="Icon"
-                  width={64}
-                  height={64}
-                />
-                <p className="text-center mt-2">SUPORTE 24/7</p>
-              </div>
+              <a href="/contacts">
+                <div className="flex flex-col items-center">
+                  <Image
+                    className=""
+                    src="/ic_support.svg"
+                    alt="Icon"
+                    width={64}
+                    height={64}
+                  />
+                  <p className="text-center mt-2">SUPORTE 24/7</p>
+                </div>
+              </a>
             </div>
           </div>
           {/*  FIM Seção Missão */}
@@ -109,8 +122,8 @@ export default function Home() {
                 <br />
                 <br /> O PARA AQUELES QUE AMAM VIAJAR conta com duas amigas,
                 Márcia Santos e Marta Silva que além de serem duas apaixonadas
-                por viajar, gostam de juntar a sua paixão à concretização de sonhos
-                em realidade.
+                por viajar, gostam de juntar a sua paixão à concretização de
+                sonhos em realidade.
                 <br />
                 <br />
                 Criámos PARA AQUELES QUE AMAM VIAJAR com a missão de, acima de
@@ -150,9 +163,7 @@ export default function Home() {
               Testemunhos
             </h2>
             {/* Conteúdo da seção Testemunhos */}
-            <SwiperDemo>
-              
-            </SwiperDemo>
+            <SwiperDemo></SwiperDemo>
           </div>
         </section>
       </div>
@@ -160,5 +171,5 @@ export default function Home() {
   );
 }
 import React from "react";
-import Destinos from "./components/destinos";import SwiperDemo from "./components/Swiper";
-
+import Destinos from "./components/destinos";
+import SwiperDemo from "./components/Swiper";
