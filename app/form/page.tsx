@@ -122,6 +122,23 @@ const Form = () => {
           </div>
           <div className="mt-4">
             <label
+              htmlFor="partida"
+              className="block text-sm font-medium text-gray-600"
+            >
+              Partida:
+            </label>
+            <select
+              id="partida"
+              name="partida"
+              required
+              className="mt-1 p-2 w-36 border rounded-md bg-white"
+            >
+              <option value="Lisboa">Lisboa</option>
+              <option value="Porto">Porto</option>
+            </select>
+          </div>
+          <div className="mt-4">
+            <label
               htmlFor="destino"
               className="block text-sm font-medium text-gray-600"
             >

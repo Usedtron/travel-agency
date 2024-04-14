@@ -3,6 +3,7 @@ interface EmailTemplateProps {
   email: string;
   phoneNumber: string;
   message?: string;
+  partida: string;
   destino: string;
   startDate: string;
   endDate: string;
@@ -18,6 +19,7 @@ export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({
   email,
   phoneNumber,
   message = "",
+  partida,
   destino,
   startDate,
   endDate,
@@ -29,6 +31,7 @@ export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({
 <div className="max-w-md mx-auto p-8 mt-10 rounded-lg shadow-md">
             <h1 className="text-lg font-semibold mb-4">Pedido de Orçamento</h1>
             <p className="mb-2">Nome: {name}</p>
+            <p className="mb-6">Partida: {partida}</p>
             <p className="mb-2">Destino: {destino}</p>
             <p className="mb-2">Email: {email}</p>
             <p className="mb-2">Telefone: {phoneNumber}</p>

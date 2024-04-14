@@ -17,6 +17,7 @@ export async function POST(
     const name = formData.get("name")?.toString();
     const email = formData.get("email")?.toString();
     const phoneNumber = formData.get("phoneNumber")?.toString();
+    const partida = formData.get("partida")?.toString();
     const destino = formData.get("destino")?.toString();
     const startDate = formData.get("startDate")?.toString();
     const endDate = formData.get("endDate")?.toString();
@@ -40,6 +41,7 @@ export async function POST(
       !name ||
       !email ||
       !phoneNumber ||
+      !partida ||
       !destino ||
       !startDate ||
       !endDate ||
@@ -59,6 +61,7 @@ export async function POST(
         email: email,
         phoneNumber: phoneNumber,
         destino: destino,
+        partida: partida,
         startDate: startDate,
         endDate: endDate,
         numAdultos: numAdultos,
