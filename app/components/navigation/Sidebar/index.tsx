@@ -48,11 +48,18 @@ const Sidebar = (props: SidebarProps) => {
             />
           </div>
           <a
-            href="/form"
+            href="https://paraaquelesqueamamviajar.traveltool.pt/"
             className="btn bg-orange-400 text-white border-white btn-sm flex rounded-none w-64"
+          >
+            RESERVA ONLINE
+          </a>
+          <a
+            href="/form"
+            className="btn bg-gray-200 text-[#3CAFA0] border-white btn-sm flex rounded-none w-64"
           >
             ORÇAMENTO
           </a>
+         
           <a
             href="/vouchers"
             className="btn bg-gray-200 text-[#3CAFA0] border-white btn-sm flex rounded-none w-64"

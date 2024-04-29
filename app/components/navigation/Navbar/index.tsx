@@ -31,9 +31,15 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
       <a
             href="/form"
-            className="btn bg-orange-400 text-white border-white btn-sm flex rounded-none w-32"
+            className="btn bg-gray-200 text-[#3CAFA0] border-white btn-sm flex rounded-none w-32"
           >
             ORÇAMENTO
+          </a>
+          <a
+            href="https://paraaquelesqueamamviajar.traveltool.pt/"
+            className="btn bg-orange-400 text-white border-white btn-sm flex rounded-none w-32"
+          >
+            RESERVAR
           </a>
           <a
             href="/vouchers"

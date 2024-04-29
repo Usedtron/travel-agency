@@ -25,7 +25,7 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-2 mx-auto max-w-4xl">
             {/* Div 1 */}
             <div className="p-4 bg-white rounded-md shadow-md">
-              <a href="/form">
+              <a href="https://paraaquelesqueamamviajar.traveltool.pt/">
                 <div className="flex flex-col items-center">
                   <Image
                     src="/itenerario.svg"
@@ -40,7 +40,7 @@ export default function Home() {
 
             {/* Div 2 */}
             <div className="p-4 bg-white rounded-md shadow-md">
-              <a href="/form">
+              <a href="https://paraaquelesqueamamviajar.traveltool.pt/">
                 <div className="flex flex-col items-center">
                   <Image
                     src="/ic_hotel.svg"
