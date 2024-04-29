@@ -78,17 +78,8 @@ const Form = () => {
     novasIdades[index] = novaIdade;
     setIdadesCriancas(novasIdades);
   };
-  const [orcamento, setOrcamento] = useState("");
 
-  const handleOrcamentoChange = (
-    event: React.ChangeEvent<HTMLInputElement>
-  ) => {
-    let novoOrcamento = parseInt(event.target.value);
-    if (isNaN(novoOrcamento) || novoOrcamento < 1000) {
-      novoOrcamento = 1000;
-    }
-    setOrcamento(novoOrcamento.toString());
-  };
+  
   
   return (
     <div className="flex justify-center items-center h-auto formulario">
@@ -285,8 +276,6 @@ const Form = () => {
               name="orcamento"
               placeholder="Mínimo 1000€"
               min={1000}
-              value={orcamento}
-              onChange={handleOrcamentoChange}
               required
               className="mt-1 p-2 w-36 border rounded-md bg-white"
             />
