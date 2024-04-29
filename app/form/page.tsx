@@ -53,7 +53,9 @@ const Form = () => {
   const [numCriancas, setNumCriancas] = useState(0);
   const [idadesCriancas, setIdadesCriancas] = useState<number[]>([]);
 
-  const handleNumCriancasChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+  const handleNumCriancasChange = (
+    event: React.ChangeEvent<HTMLSelectElement>
+  ) => {
     const quantidade = parseInt(event.target.value);
     setNumCriancas(quantidade);
 
@@ -62,7 +64,10 @@ const Form = () => {
     setIdadesCriancas(novasIdades);
   };
 
-  const handleIdadeChange = (index: number, event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleIdadeChange = (
+    index: number,
+    event: React.ChangeEvent<HTMLInputElement>
+  ) => {
     let novaIdade = parseInt(event.target.value);
     if (novaIdade < 0) {
       novaIdade = 0;
@@ -70,9 +75,21 @@ const Form = () => {
       novaIdade = 17;
     }
     const novasIdades = [...idadesCriancas];
-  novasIdades[index] = novaIdade;
-  setIdadesCriancas(novasIdades);
+    novasIdades[index] = novaIdade;
+    setIdadesCriancas(novasIdades);
   };
+  const [orcamento, setOrcamento] = useState("");
+
+  const handleOrcamentoChange = (
+    event: React.ChangeEvent<HTMLInputElement>
+  ) => {
+    let novoOrcamento = parseInt(event.target.value);
+    if (isNaN(novoOrcamento) || novoOrcamento < 1000) {
+      novoOrcamento = 1000;
+    }
+    setOrcamento(novoOrcamento.toString());
+  };
+  
   return (
     <div className="flex justify-center items-center h-auto formulario">
       <div className="container mt-16 lg:mt-32 lg:mb-20 lg:mx-60 p-8 flex-1 lg:w-1/3 lg:h-1/3 bg-white  bg-opacity-40 shadow-xl border border-gray-300 rounded-md">
@@ -213,55 +230,63 @@ const Form = () => {
             </select>
           </div>
           <div className="mt-4">
-          <label htmlFor="numCriancas" className="block text-sm font-medium text-gray-600">
-        Número de crianças:
-      </label>
-      <select
-        id="numCriancas"
-        name="numCriancas"
-        required
-        className="mt-1 p-2 w-36 border rounded-md bg-white"
-        value={numCriancas}
-        onChange={handleNumCriancasChange}
-      >
-        <option value="0">0</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-      </select>
+            <label
+              htmlFor="numCriancas"
+              className="block text-sm font-medium text-gray-600"
+            >
+              Número de crianças:
+            </label>
+            <select
+              id="numCriancas"
+              name="numCriancas"
+              required
+              className="mt-1 p-2 w-36 border rounded-md bg-white"
+              value={numCriancas}
+              onChange={handleNumCriancasChange}
+            >
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
 
-      {numCriancas > 0 && (
-        <div className="mt-4">
-          <p className="block text-sm font-medium text-gray-600">Idades das crianças:</p>
-          {idadesCriancas.map((idade, index) => (
-            <input
-              key={index}
-              type="number"
-              min="0"
-              max="17"
-              value={idade}
-              onChange={(event) => handleIdadeChange(index, event)}
-              className="border rounded px-2 py-1 mb-2 bg-white"
-            />
-          ))}
-        </div>
-      )}
+            {numCriancas > 0 && (
+              <div className="mt-4">
+                <p className="block text-sm font-medium text-gray-600">
+                  Idades das crianças:
+                </p>
+                {idadesCriancas.map((idade, index) => (
+                  <input
+                    key={index}
+                    type="number"
+                    min="0"
+                    max="17"
+                    value={idade}
+                    onChange={(event) => handleIdadeChange(index, event)}
+                    className="border rounded px-2 py-1 mb-2 bg-white"
+                  />
+                ))}
+              </div>
+            )}
           </div>
           <div className="mt-4">
             <label
               htmlFor="orcamento"
               className="block text-sm font-medium text-gray-600"
             >
-              Orçamento (em euros):
+              Orçamento (A partir de 1000€ por pessoa):
             </label>
             <input
               type="number"
               id="orcamento"
               name="orcamento"
-              min={0}
+              placeholder="Mínimo 1000€"
+              min={1000}
+              value={orcamento}
+              onChange={handleOrcamentoChange}
               required
               className="mt-1 p-2 w-36 border rounded-md bg-white"
             />
