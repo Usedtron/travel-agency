@@ -29,24 +29,39 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
-      <a
-            href="/form"
-            className="btn bg-gray-200 text-[#3CAFA0] border-white btn-sm flex rounded-none w-32"
-          >
-            ORÇAMENTO
-          </a>
-          <a
-            href="https://paraaquelesqueamamviajar.traveltool.pt/"
-            className="btn bg-orange-400 text-white border-white btn-sm flex rounded-none w-32"
-          >
-            RESERVAR
-          </a>
-          <a
-            href="/vouchers"
-            className="btn bg-gray-200 text-[#3CAFA0] border-white btn-sm flex rounded-none w-32"
-          >
-            VOUCHER
-          </a>      </div>
+        <details className="dropdown ">
+          <summary className="btn bg-orange-400 text-white border-white btn-sm flex rounded-none w-54 p-2">RESERVAR</summary>
+          <ul className="p-2 shadow menu-vertical dropdown-content z-[1] bg-base-100 ">
+            <li>
+              {" "}
+              <a
+                href="/form"
+                className="btn bg-gray-200 text-[#3CAFA0] border-white btn-sm flex rounded-none w-32"
+              >
+                ORÇAMENTO
+              </a>
+            </li>
+            <li>
+              {" "}
+              <a
+                href="https://paraaquelesqueamamviajar.traveltool.pt/"
+                className="btn bg-orange-400 text-white border-white btn-sm flex rounded-none "
+              >
+                RESERVAR
+              </a>
+            </li>
+            <li>
+              {" "}
+              <a
+                href="/vouchers"
+                className="btn bg-gray-200 text-[#3CAFA0] border-white btn-sm flex rounded-none w-32"
+              >
+                VOUCHER
+              </a>
+            </li>
+          </ul>
+        </details>
+      </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-gray-600">
           <li>
